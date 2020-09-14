@@ -1,4 +1,4 @@
-# Información del Grupo Nº [< GRUPO>] - [< CURSO>]
+# Información del Grupo Nº [6] - [2W1]
 
 
 ## Nombre del Grupo PibesSoft:zap:
