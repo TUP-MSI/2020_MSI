@@ -1,4 +1,4 @@
-# Información del Grupo Nº [<5>] - [<2W1>]
+# Información del Grupo Nº [5] - [2W1]
 
 
 ## PibesSoft :zap:
