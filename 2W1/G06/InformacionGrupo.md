@@ -14,7 +14,10 @@
         <td>Heckel Canavese, Martin Nicolás</td>
         <td>MHeckel294</td>
     </tr>
-    <tr>
+    <tr style="text-align: center;">
+        <td>110830</td>
+        <td>Lorenzo, Francisco Javier</td>
+        <td>franjlorenzo</td>>
     </tr>
     <tr>
     </tr>
