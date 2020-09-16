@@ -10,8 +10,8 @@
 
 | Legajo| Apellidos Nombres  | Cuenta GitHub | Linkedin
 | :------: | :-------- | :-------- | :-------- |
-| 110943 | LAZCANO, LEONEL ADRIÁN |[UsuarioGitHub](LeonelLazcano-2w2-110943)|[UserLinkedin](https://www.linkedin.com/in/leonel-lazcano-5a026b182/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110943 | LAZCANO, LEONEL ADRIÁN |[UsuarioGitHub](https://github.com/LeonelLazcano-2w2-110943)|[UserLinkedin](https://www.linkedin.com/in/leonel-lazcano-5a026b182/)|
+| 110818 | ZUCCHIATTI, DARIO EZEQUIEL |[UsuarioGitHub](https://github.com/EzeZeta)|[UserLinkedin](https://www.linkedin.com/in/ezequiel-zucchiatti-335590183/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 
