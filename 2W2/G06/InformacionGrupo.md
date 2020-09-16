@@ -14,7 +14,7 @@
 | 110818 | ZUCCHIATTI, DARIO EZEQUIEL |[UsuarioGitHub](https://github.com/EzeZeta)|[UserLinkedin](https://www.linkedin.com/in/ezequiel-zucchiatti-335590183/)|
 | 110927 | RODRIGUEZ, FABIAN ABEL |[UsuarioGitHub](https://github.com/fabian12rodriguez)|[UserLinkedin](https://www.linkedin.com/in/fabian-rodriguez-969304168/)|
 | 111111 | ROMANO, LUCAS ESTEBAN |[UsuarioGitHub](https://github.com/lromano111108)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110946 | SILVESTER, ALAN EDUARDO |[UsuarioGitHub](https://github.com/silvesteralan110946)|[UserLinkedin](https://www.linkedin.com/in/alan-eduardo-silvester/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 
 
