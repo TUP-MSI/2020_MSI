@@ -10,9 +10,9 @@
 
 | Legajo| Apellidos Nombres  | Cuenta GitHub | Linkedin
 | :------: | :-------- | :-------- | :-------- |
-| 110887 | Arias, Florencia Nicole |110887AriasFlorencia (https://github.com/110887AriasFlorencia)|florenciaarias1995 (https://www.linkedin.com/in/florenciaarias1995/)|
-| 110917 | Guardia Otero,Luciano |Luciano-GuardiaOtero(https://github.com/Luciano-GuardiaOtero)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110887 | Arias, Florencia Nicole |[110887AriasFlorencia] (https://github.com/110887AriasFlorencia)|florenciaarias1995 (https://www.linkedin.com/in/florenciaarias1995/)|
+| 110917 | Guardia Otero,Luciano |[Luciano-GuardiaOtero](https://github.com/Luciano-GuardiaOtero)|[UserLinkedin](https://ar.linkedin.com/)|
+| 111157 | Godoy, Joaquin | [111157JoaquinGodoy](https://github.com/111157JoaquinGodoy) |[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 
 
