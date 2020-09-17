@@ -1,0 +1,2 @@
+Objetivo : 
+Brindar informacion para la realizacion y actualizacion continua de las cuentas contables necesarias en la empresa Super Mami, como tambien la gestionion de los asientos contables y la gestion de bancos que utiliza la organizacion. Ademas el sistema brindara las herramientas necesarias para realizar los informes contables mostrando sus respectivos resultados por pantalla. Asi tambien podra gestionar los ingresos y gastos de la empresa. 
