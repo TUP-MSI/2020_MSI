@@ -100,3 +100,63 @@ Gestion Asiento Contable:
 
 Gesti�n de Informes Contables
 -Generar reporte con los informes contables.
+Propuesta:
+ Brindamos un Sistema de Información orientado a Finanzas que tiene la capacidad de cubrir las necesidades de la Gestión de Cuentas Contables, ofrece la posibilidad de crear,
+actualizar y/o eliminar las cuentas contables necesarias pudiendo generar informes de cada una de ellas. 
+Otras de las capacidades que tiene el sistema son la registración de los gastos e ingresos de la empresa por mes, ofreciendo poder generar reportes de cada uno,
+de manera diaria, semanal, mensual o anual. Asi como puede monitorear los ingresos y gastos, el sistema ofrece la posibilidad de gestionar asientos contables y
+ajustes contables, emitiendo reportes con la informes de los mismos cuando sea requerido. Podrá generar un reporte de cada banco(con sus respectivos datos)que sea socio de la empresa,
+también se podrá gestionar las conciliaciones bancarias, es decir, agregar y/o actualizarlas cuando sea necesario y si lo requiere, podrá generar un reporte de las distintas transacciones de cada banco.
+
+Usuarios
+Internamente nuestro grupo se organizó en distintos roles Scrum:
+Scrum Master, Nuñez Fabrizio: encargado de facilitar la realización de ceremonias, la cooperación y el enfoque por parte del Equipo Scrum, garantizando el compromiso total del grupo. Así también, enseña las prácticas de Scrum a todos los involucrados en el proyecto y ayuda al equipo en desarrollar el producto.
+Equipo de Desarrollo, Brito Nahuel, Herrera Paola, López Miguel, Maldonado Enzo, Santiso Marina, de los cuales:
+Programador Backend, Brito Nabuel: encargado de la programación del lado del servidor.
+Diseñadora UI/UX y Programadora Frontend, Herrera Paola: delegada en definir los lineamientos visuales del producto y, a la vez, mejorar la experiencia del usuario en su interacción con el mismo. Por otro lado, también está encargada de la programación del lado del cliente.
+Programador Full-Stack, López Miguel: desarrollador con conocimientos y experiencia en Frontend y en Backend.
+Administrador de Base de Datos, Maldonado Enzo: siendo él quien dirige todas las actividades relacionadas con el mantenimiento del entorno de Base de Datos.
+Programadora Frontend y Tester, Santiso Marina: cuyas tareas son la programación del lado del cliente, como así también, asegurar que los requerimientos definidos se cumplan en la implementación del producto, informando todos los defectos encontrados.
+A su vez, diferentes usuarios externos, ya mostrados en la Figura 1, van a interactuar de manera directa y cotidiana con nuestro sistema. A continuación se lista dicho usuarios, como así también, las interacciones.
+Rol de tesorero:
+Al recibir el dinero proveniente del área de ventas, el tesorero podrá, a través de un formulario en pantalla, registrar la cantidad de dinero recibido y realizarautomáticamente un recibo de dinero el cual podrá ser firmado de manera digital y posteriormente imprimirlo, si es necesario. Este recibo de dinero será enviado, mecánicamente, a través de un aviso al área de Contabilidad para que proceda con las tareas subsiguientes.
+Por fuera del sistema, el tesorero debe recaudarde manera manual el dinero ingresado y entregar el comprobante a ventas.
+El área de compras envía la documentación de lo que se debe abonar al área de finanzas, donde el tesorero simulará la compra  a través de un formulario en pantalla, la cual si es aceptada es realizada. Luego el sistema envía un aviso a contabilidad para que efectúe los asientos contables pertinentes.
+Por fuera del sistema, el tesorero debe avisar al área de compras si se procedió o no, con la compra y también realizar los pagos.
+El área de marketing, recursos humanos y gerencia general envía la documentación de lo que se debe abonar r al área de finanzas, donde el tesorero simulará el pago a través de un formulario en pantalla, el cual si es aceptado se realizará. Luego el sistema envía un aviso a contabilidad para que efectúe los asientos contables pertinentes.
+Por fuera del sistema, el tesorero debe avisar a las respectivas áreas si se procedió o no, con el pago y también realizarlos.
+Rol de contador:
+Al recibir una notificación desde el área de tesorería de un recibo de dinero proveniente de una venta, el contador podrá registrar el asiento contable correspondiente a la transacción, verificando los detalles de la misma. En el caso de ser necesario podrá editar este registro.
+Al recibir una notificación desde el área de tesorería de una compra realizada, el contador podrá registrar el asiento contable correspondiente a la compra, verificando los detalles de esta. En el caso de ser necesario podrá editar este registro.
+Al recibir una notificación desde el área de tesorería de un pago realizado, el contador podrá registrar el asiento contable correspondiente a dicho pago, verificando los detalles de este. En el caso de ser necesario podrá editar este registro.
+Todos los registros contables anteriormente nombrados y todos los necesarios para llevar a cabo la contabilidad de la empresa, como así también, los ajustes contables, podrán ser realizados y modificados, a través de una ventana de carga.
+Los contadores podrán realizar las conciliaciones bancarias a través de una ventana de carga.
+Rol de Jefe Técnico de Contabilidad
+El Jefe Técnico del sector de Contabilidad podrá generar, a medida que sea requerido internamente, los informes contables. Esto se hará a través de la generación automática de un reporte de cualquiera sea el informe contable necesitado, pudiéndose descargar e imprimir.
+Rol de Subgerente de Contabilidad
+El subgerente del sector de contabilidad podrá, a través de un formulario de carga, agregar, modificar y eliminar las cuentas contables utilizadas por la empresa.
+También podrá, a través de un formulario de carga, agregar, modificar y eliminar los bancos asociados con la empresa.
+El subgerente de contabilidad podrá generar los reportes, los cuales son descargables e imprimibles, de las cuentas contables con su respectiva clasificación en los diferentes tipos, asientos contables, ajustes contables, informes contables, bancos asociados con la empresa, transacciones de los distintos bancos.
+Rol de Gerente de Finanzas:
+La gerenta de finanzas, podrá tener un manejo pleno de todos los reportes que nuestro sistema ofrece, los cuales son descargables e imprimibles. Estos reportes son:
+Reporte de las cuentas contables que tiene la empresa, con su respectiva clasificación en los diferentes tipos (activo, pasivo, patrimonio neto, resultado positivo, resultado negativo).
+Reporte de las cuentas nombradas anteriormente, agregándole sus respectivos saldos. 
+Reporte de las distintas transacciones que hubo en determinado tiempo.
+Reporte de los asientos contables.
+Reporte de los ajustes contables.
+Reporte de los informes contables.
+Reporte de los bancos asociados con la empresa.
+Reporte de las distintas transacciones en los distintos bancos.
+Reporte de los ingresos totales generados en determinado tiempo.
+Reporte estadístico de los ingresos totales generados en determinado tiempo.
+Reporte de los gastos totales generados en determinado tiempo.
+Reporte estadístico de los gastos totales generados en determinado tiempo.
+Product Backlog
+El product Backlog de nuestro Sistema de Información va a estar compuesto por un theme, dos epics: de una se desprenden 2 features y de la otra 4 features.
+Esto será detallado en la Figura 5.
+
+Figura 5
+Product Backlog 
+<imagen>
+Nota: El gráfico representa el Product Backlog de nuestro Sistema de Información para el área de finanzas de la empresa Supermami.
+
