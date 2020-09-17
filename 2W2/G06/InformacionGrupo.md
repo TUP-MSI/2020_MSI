@@ -16,12 +16,13 @@
 | 111111 | ROMANO, LUCAS ESTEBAN |[UsuarioGitHub](https://github.com/lromano111108)|[UserLinkedin](https://ar.linkedin.com/)|
 | 110946 | SILVESTER, ALAN EDUARDO |[UsuarioGitHub](https://github.com/silvesteralan110946)|[UserLinkedin](https://www.linkedin.com/in/alan-eduardo-silvester/)|
 | 110933 | PINO, MARTIN |[UsuarioGitHub](https://github.com/pinomartin110933)|[UserLinkedin](https://www.linkedin.com/in/martinpino91/)|
+| 110947 | CORREA, EMILIANO |[UsuarioGitHub](https://github.com/ECorrea-TUP)|[UserLinkedin](https://www.linkedin.com/in/emiliano-correa-dev/)|
 
 
 # Checklist de estado de actividad
 
 ## Trabajo Practico Entregas :clipboard:
-- [ 20/09/2020] Entrega Primera Parte
+- [ ] Entrega Primera Parte
 - [ ] Entrega Segunda Parte
 - [ ] Entrega Tercera Parte
 
