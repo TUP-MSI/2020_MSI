@@ -5,6 +5,7 @@ A raíz de dicho Diagnóstico se desarrolla la propuesta de un Sistema de Inform
 En la formulación del objetivo se expone la razón de ser del sistema de manera clara y específica, del cual se desprenden los alcances, que explican las funciones de cada elemento por el cual está compuesto el sistema, para así poder lograr el objetivo propuesto y dejando asentados los requerimientos funcionales y no funcionales del mismo.
 Como se menciona anteriormente, el presente trabajo se desarrolla en el marco de un Trabajo Práctico Integrador de la materia Metodología de Sistemas I, haciendo uso de una metodología de trabajo ágil y usando herramientas tales como Git y Trello, como así también, dividiendo el trabajo en partes menores para que sea más fácil el seguimiento y cumpliendo con los plazos requeridos para completar cada tarea.
 A partir de aquí, se realiza de manera grupal, la exposición de nuestro proyecto.
+
 Relevamiento del sistema
 El SuperMami es un supermercado con formato mayorista-minorista en la zona sur de la ciudad de Córdoba, ofreciendo productos con fuerte predominio de marcas de origen regional, en una relación justa entre precio y calidad, apuntando a satisfacer la necesidad de diversos sectores sociales, entre los que se incluyen los negocios de proximidad como despensas, autoservicios, grupos familiares y otros.
 Su área de finanzas, encargada de ocuparse de las responsabilidades económicas de la empresa, se divide en el sector de Contabilidad y en el sector de Tesorería, con sus respectivos empleados capacitados para llevar a cabo las tareas, expuesto en la Figura 1.
@@ -52,9 +53,3 @@ Figura 4
 <imagen>
 Proceso de Contabilidad de Gastos y Sueldos sin SI 
 Nota: El gráfico representa el proceso de contabilidad de los gastos y sueldos, llevada a cabo por el área de Finanzas, con sus respectivas subáreas de Contabilidad y Tesorería, y la relación con las áreas de Gerencia General, Marketing y Recursos Humanos. Esto es sin tener implementado el S.I.
-
-Diagnóstico del sistema
-Tras analizar el relevamiento, quedó en evidencia que en el funcionamiento del área de finanzas se pueden observar distintas vulnerabilidades en la integridad de datos, tales como la posibilidad de fallas de seguridad, pérdidas de información, entre otros. Ya que si bien es un sistema que puede funcionar correctamente se trata de un sistema obsoleto y unipersonal.
-Por un lado, el sector de contabilidad del área de Finanzas realiza el almacenamiento de datos por medio de Microsoft Excel, el cual es realizado por una sola persona (la Gerenta del área), ya que no cuentan con un programa que permita la edición al mismo tiempo por otro usuario, lo que genera que la información vaya pasando de mano en mano a través de varios archivos Excel. La pérdida de alguna anotación puede traer varios inconvenientes en un área tan importante como la analizada. 
-A su vez, en el sector de tesorería también se realiza la documentación comercial en ficheros Excel modificando los datos a medida que se lo requiera a mano, provocando demoras, problemas de tipeo y problemas de formateo del diseño.
-Todo lo antedicho trae aparejado una gran pérdida de tiempo, ya que la recolección de información y el traspaso de la misma al archivo Excel es realizada una vez al día, no encontrándose de esta manera actualizada la información minuta a minuto, pudiendo existir diferencias en los saldos de las distintas cuentas.
