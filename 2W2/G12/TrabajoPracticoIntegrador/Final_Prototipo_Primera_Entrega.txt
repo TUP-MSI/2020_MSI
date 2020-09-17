@@ -27,3 +27,21 @@ El sistema permitirá registrar un ajuste contable  siendo obligatorio que se se
 El sistema permitirá modificar un ajuste contable mientras se haya modificado información en este y los requisitos obligatorios se encuentren satisfechos
 El sistema permitirá generar un reporte de los ajustes contables seleccionados
 
+-Gestion Ingreso
+El sistema permitirá registrar un ingreso siendo obligatorio que se llene el campo de la cuenta contable pertinente, la fecha, el método de pago y, tambien, a que cuenta va dirigida el dinero. Como campo no obligatorio se tiene a la nota del ingreso.
+El sistema permitirá modificar un ingreso mientras se haya modificado información en este y los campos obligatorios se encuentren completos
+El sistema en caso de ser necesario generará un recibo por el ingreso registrado
+El sistema permitirá generar un reporte de los ingresos totales generados en determinado tiempo (diario, semanal, mensual, anual)
+El sistema permitirá generar un reporte estadístico  de los ingresos totales generados en determinado tiempo (diario, semanal, mensual, anual)
+
+-Gestion Gasto
+El sistema permitirá registrar un gasto siendo obligatorio que se llene el campo proveedor, la fecha, el método de pago, y la cuenta contable pertinente. Como campo no obligatorio se tiene a la nota del gasto 
+El sistema permitirá modificar un gasto mientras se haya modificado información en este y los campos obligatorios se encuentren completos
+El sistema permitirá generar un reporte de los gastos totales generados en determinado tiempo (diario, semanal, mensual, anual)
+El sistema permitirá generar un reporte estadístico  de los gastos totales generados en determinado tiempo (diario, semanal, mensual, anual)
+
+-Gestion de Informes Contables
+El sistema permitirá generar reportes del Estado de resultado
+El sistema permitirá generar reportes del Balance general
+El sistema permitirá generar reportes del Libro diario
+El sistema permitirá generar reportes del Libro mayor
