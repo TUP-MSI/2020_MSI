@@ -1,0 +1,20 @@
+Alcances:
+Gestion Cuenta Contable:
+-Gestionar cuentas contables(Alta,Baja,Modificacion).
+-Generar reporte de las cuentas contables.
+-Clasificar las cuentas contables en sus diferentes tipos(activo, pasivo, patrimonio neto, resultados positivos, resultados negativos).
+-Generar reporte de los saldos de cada cuenta.
+-Generar reporte de los detalles de las distintas transacciones en las cuentas contables.
+
+Gestion Banco:
+-Gestionar bancos asociados con la empresa(Alta,Baja,Modificacion).
+-Generar reporte de los bancos asociados con la empresa.
+-Gestionar conciliaciones bancarias(alta, modificacion).
+-Generar reporte de los detalles de las distintas transacciones en los distintos bancos.
+
+Gestion Ingreso:
+-Gestionar un ingreso (alta y modificación).
+-Generar un recibo de dinero.
+- Generar reporte de  los ingresos totales generados en determinado tiempo (diario, semanal, mensual, anual).
+-Generar reporte estadistico de los ingresos totales generados en determinado tiempo (diario, semanal, mensual, anual).
+
