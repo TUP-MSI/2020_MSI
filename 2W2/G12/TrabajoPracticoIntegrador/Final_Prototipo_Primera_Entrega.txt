@@ -53,3 +53,10 @@ Figura 4
 <imagen>
 Proceso de Contabilidad de Gastos y Sueldos sin SI 
 Nota: El gráfico representa el proceso de contabilidad de los gastos y sueldos, llevada a cabo por el área de Finanzas, con sus respectivas subáreas de Contabilidad y Tesorería, y la relación con las áreas de Gerencia General, Marketing y Recursos Humanos. Esto es sin tener implementado el S.I.
+
+Diagnóstico del sistema
+Tras analizar el relevamiento, quedó en evidencia que en el funcionamiento del área de finanzas se pueden observar distintas vulnerabilidades en la integridad de datos, tales como la posibilidad de fallas de seguridad, pérdidas de información, entre otros. Ya que si bien es un sistema que puede funcionar correctamente se trata de un sistema obsoleto y unipersonal.
+Por un lado, el sector de contabilidad del área de Finanzas realiza el almacenamiento de datos por medio de Microsoft Excel, el cual es realizado por una sola persona (la Gerenta del área), ya que no cuentan con un programa que permita la edición al mismo tiempo por otro usuario, lo que genera que la información vaya pasando de mano en mano a través de varios archivos Excel. La pérdida de alguna anotación puede traer varios inconvenientes en un área tan importante como la analizada. 
+A su vez, en el sector de tesorería también se realiza la documentación comercial en ficheros Excel modificando los datos a medida que se lo requiera a mano, provocando demoras, problemas de tipeo y problemas de formateo del diseño.
+Todo lo antedicho trae aparejado una gran pérdida de tiempo, ya que la recolección de información y el traspaso de la misma al archivo Excel es realizada una vez al día, no encontrándose de esta manera actualizada la información minuta a minuto, pudiendo existir diferencias en los saldos de las distintas cuentas.
+
