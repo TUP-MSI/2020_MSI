@@ -18,3 +18,16 @@ Gestion Ingreso:
 - Generar reporte de  los ingresos totales generados en determinado tiempo (diario, semanal, mensual, anual).
 -Generar reporte estadistico de los ingresos totales generados en determinado tiempo (diario, semanal, mensual, anual).
 
+Gestion Gasto:
+-Gestionar un gasto (alta y modificación).
+-Generar reporte de los gastos totales producidos en determinado tiempo (diario, semanal, mensual, anual).
+-Generar reporte  estadistico de  los gastos totales producidos en determinado tiempo (diario, semanal, mensual, anual).
+
+Gestion Asiento Contable:
+-Gestionar asientos contables(Alta,Modificacion).
+-Generar reporte de los asientos contables.
+-Gestionar ajustes contables(alta, modifación).
+-Generar reporte de los ajustes contables.
+
+Gestión de Informes Contables
+-Generar reporte con los informes contables.
