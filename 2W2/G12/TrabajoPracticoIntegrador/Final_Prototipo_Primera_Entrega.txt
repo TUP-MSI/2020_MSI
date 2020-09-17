@@ -62,3 +62,41 @@ Todo lo antedicho trae aparejado una gran pérdida de tiempo, ya que la recolecc
 
 Objetivo : 
 Brindar informacion para la realizacion y actualizacion continua de las cuentas contables necesarias en la empresa Super Mami, como tambien la gestionion de los asientos contables y la gestion de bancos que utiliza la organizacion. Ademas el sistema brindara las herramientas necesarias para realizar los informes contables mostrando sus respectivos resultados por pantalla. Asi tambien podra gestionar los ingresos y gastos de la empresa. 
+Limite:
+
+Limite
+Desde la creación de las cuentas contables utilizadas por la empresa hasta los reportes de los informes contables.
+
+Alcances:
+Gestion Cuenta Contable:
+-Gestionar cuentas contables(Alta,Baja,Modificacion).
+-Generar reporte de las cuentas contables.
+-Clasificar las cuentas contables en sus diferentes tipos(activo, pasivo, patrimonio neto, resultados positivos, resultados negativos).
+-Generar reporte de los saldos de cada cuenta.
+-Generar reporte de los detalles de las distintas transacciones en las cuentas contables.
+
+Gestion Banco:
+-Gestionar bancos asociados con la empresa(Alta,Baja,Modificacion).
+-Generar reporte de los bancos asociados con la empresa.
+-Gestionar conciliaciones bancarias(alta, modificacion).
+-Generar reporte de los detalles de las distintas transacciones en los distintos bancos.
+
+Gestion Ingreso:
+-Gestionar un ingreso (alta y modificaci�n).
+-Generar un recibo de dinero.
+- Generar reporte de  los ingresos totales generados en determinado tiempo (diario, semanal, mensual, anual).
+-Generar reporte estadistico de los ingresos totales generados en determinado tiempo (diario, semanal, mensual, anual).
+
+Gestion Gasto:
+-Gestionar un gasto (alta y modificaci�n).
+-Generar reporte de los gastos totales producidos en determinado tiempo (diario, semanal, mensual, anual).
+-Generar reporte  estadistico de  los gastos totales producidos en determinado tiempo (diario, semanal, mensual, anual).
+
+Gestion Asiento Contable:
+-Gestionar asientos contables(Alta,Modificacion).
+-Generar reporte de los asientos contables.
+-Gestionar ajustes contables(alta, modifaci�n).
+-Generar reporte de los ajustes contables.
+
+Gesti�n de Informes Contables
+-Generar reporte con los informes contables.
