@@ -1,0 +1,29 @@
+Requerimientos Funcionales:
+
+-Gestion cuentas contables
+El sistema permitirá dar de alta un cuenta contable teniendo como requisitos obligatorio el nombre y como no obligatorios número de la cuenta y descripción
+El sistema permitirá eliminar una cuenta contable creada anteriormente, solo si no está siendo utilizada en ningún asiento contable
+El sistema permitirá modificar una cuenta contable mientras se haya modificado información en esta y los campos obligatorios se encuentran completos
+El sistema permitirá desactivar una cuenta contable de ser necesario
+El sistema podrá generar un reporte del saldo de la cuenta seleccionada
+El sistema permitirá clasificar las cuentas contables en categorías, las cuales son: activo, pasivo, patrimonio neto, resultado negativo, resultado positivo
+El sistema podrá generar un reporte de las categorías de las cuentas contables donde se mostraran las transacciones realizadas sobre esas cuentas
+El sistema podrá mostrar el detalle de las transacciones realizadas sobre una cuenta
+
+-Gestion Bancos
+El sistema generará un listado de  los bancos asociados con la empresa
+El sistema permitirá dar de alta una cuenta bancaria, teniendo como datos obligatorios el tipo de cuenta, nombre de la cuenta, saldo inicial, fecha y como no obligatorio el numero de la cuenta y una descripción
+El sistema permitirá eliminar una cuenta bancaria creada anteriormente
+El sistema permitirá modificar una cuenta bancaria mientras se haya modificado información en esta y los campos obligatorios se encuentren completos
+El sistema permitirá visualizar el detalle de las transacciones realizadas en la cuenta bancaria seleccionada
+El sistema permitirá registrar una conciliación bancaria de la cuenta seleccionada teniendo como campo obligatorio el saldo final y como no obligatorios los gastos bancarios, impuestos bancarios, entradas bancarias
+El sistema permitirá modificar una conciliación bancaria mientras se haya modificado información en esta y los campos obligatorios se encuentren completos
+
+-Gestion Asiento Contable
+El sistema permitirá registrar un asiento contable siendo obligatorio que se seleccione, mínimamente, dos cuenta, las cuales deberán ser de distinto saldo (deudor y acreedor) y donde, además, la suma total del debe sea igual a la suma total del haber. Por otro lado, el campo nota deberá estar completo.
+El sistema permitirá modificar un asiento contable mientras se haya modificado información en este y los requisitos obligatorios se encuentren satisfechos
+El sistema permitirá generar un reporte de los asientos contables seleccionados
+El sistema permitirá registrar un ajuste contable  siendo obligatorio que se seleccione, mínimamente, dos cuenta, las cuales deberán ser de distinto saldo (deudor y acreedor) y donde, además,la suma total del debe sea igual a la suma total del haber. Por otro lado, el campo descripción será no obligatorio.
+El sistema permitirá modificar un ajuste contable mientras se haya modificado información en este y los requisitos obligatorios se encuentren satisfechos
+El sistema permitirá generar un reporte de los ajustes contables seleccionados
+
