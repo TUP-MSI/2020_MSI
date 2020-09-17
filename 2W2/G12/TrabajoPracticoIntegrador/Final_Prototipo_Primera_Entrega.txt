@@ -60,3 +60,5 @@ Por un lado, el sector de contabilidad del área de Finanzas realiza el almacena
 A su vez, en el sector de tesorería también se realiza la documentación comercial en ficheros Excel modificando los datos a medida que se lo requiera a mano, provocando demoras, problemas de tipeo y problemas de formateo del diseño.
 Todo lo antedicho trae aparejado una gran pérdida de tiempo, ya que la recolección de información y el traspaso de la misma al archivo Excel es realizada una vez al día, no encontrándose de esta manera actualizada la información minuta a minuto, pudiendo existir diferencias en los saldos de las distintas cuentas.
 
+Objetivo : 
+Brindar informacion para la realizacion y actualizacion continua de las cuentas contables necesarias en la empresa Super Mami, como tambien la gestionion de los asientos contables y la gestion de bancos que utiliza la organizacion. Ademas el sistema brindara las herramientas necesarias para realizar los informes contables mostrando sus respectivos resultados por pantalla. Asi tambien podra gestionar los ingresos y gastos de la empresa. 
