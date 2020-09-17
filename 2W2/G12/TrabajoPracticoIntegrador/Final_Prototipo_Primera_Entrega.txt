@@ -1,0 +1,60 @@
+Introducción
+En el presente trabajo se desarrolla un Sistema de Información en el marco de un Trabajo Práctico Integrador con características formativas y evolutivas, planteado con el objetivo de cubrir las necesidades insatisfechas del área de Finanzas de la empresa SuperMami, reconociendo en él sus procesos internos y las relaciones que posee con el resto de los sectores del supermercado.
+Se parte de la base de un relevamiento del área a través de un organigrama, de diagramas de flujos de los diversos procesos de trabajo y de un listado de sus funciones y la manera de llevarlas a cabo. De esto surge la información necesaria para poder comprender el modus operandi del sector finanzas, lo que permite visualizar las carencias y fallas del sistema actual implementado por dicha área, quedando detallado en el diagnóstico del sistema llevado a cabo. 
+A raíz de dicho Diagnóstico se desarrolla la propuesta de un Sistema de Información, que promete, a grandes rasgos, mejorar la toma de decisiones, eficacia, adaptabilidad, velocidad, integridad de datos y, anteponiendo, ante todo, la reducción de la incertidumbre al brindar la información que se requiere en el momento y situación oportuna.
+En la formulación del objetivo se expone la razón de ser del sistema de manera clara y específica, del cual se desprenden los alcances, que explican las funciones de cada elemento por el cual está compuesto el sistema, para así poder lograr el objetivo propuesto y dejando asentados los requerimientos funcionales y no funcionales del mismo.
+Como se menciona anteriormente, el presente trabajo se desarrolla en el marco de un Trabajo Práctico Integrador de la materia Metodología de Sistemas I, haciendo uso de una metodología de trabajo ágil y usando herramientas tales como Git y Trello, como así también, dividiendo el trabajo en partes menores para que sea más fácil el seguimiento y cumpliendo con los plazos requeridos para completar cada tarea.
+A partir de aquí, se realiza de manera grupal, la exposición de nuestro proyecto.
+Relevamiento del sistema
+El SuperMami es un supermercado con formato mayorista-minorista en la zona sur de la ciudad de Córdoba, ofreciendo productos con fuerte predominio de marcas de origen regional, en una relación justa entre precio y calidad, apuntando a satisfacer la necesidad de diversos sectores sociales, entre los que se incluyen los negocios de proximidad como despensas, autoservicios, grupos familiares y otros.
+Su área de finanzas, encargada de ocuparse de las responsabilidades económicas de la empresa, se divide en el sector de Contabilidad y en el sector de Tesorería, con sus respectivos empleados capacitados para llevar a cabo las tareas, expuesto en la Figura 1.
+En el sector de contabilidad se realizan las tareas de:
+•	Realización del listado de todas las cuentas que maneja la empresa, actualizándola a medida que sea necesario.
+•	Realización de los asientos contables de manera diaria.
+•	Realización de los ajustes contables.
+•	Realización del Estado de Resultados.
+•	Realización del Estado de Evolución del Patrimonio Neto.
+•	Realización del Balance general.
+•	Gestión de los ingresos y gastos que tiene la empresa.
+•	Informe sobre las cuentas a cobrar y pagar.
+•	Cálculos y registros de liquidación de impuestos y retenciones.
+•	Cálculos y registros de liquidación de sueldos de los empleados.
+Las actividades antes mencionadas se realizan en Microsoft Excel a medida que sea requerido por las necesidades del área.
+Por otro lado, el sector de tesorería del área de finanzas realiza las siguientes tareas:
+•	Operaciones bancarias.
+•	Realización de pago a proveedores.
+Estas tareas listadas se dejan asentadas en un archivo de Microsoft Excel y las tareas a continuación son hechas de manera manual:
+•	Pago de los gastos realizados por otras áreas de la empresa.
+•	Recepción del dinero recaudado en ventas al final de cada día y otorgamiento del comprobante de recibo.
+Por último, detallamos los procesos más importantes del área de finanzas con otras áreas de la empresa:
+•	El área de Ventas se encarga del cierre de caja y envía el dinero recaudado diariamente al sector de finanzas con su respectiva documentación. Esta última área procede a emitir un recibo del dinero otorgado y hacer los asientos contables pertinentes, como lo muestra la Figura 2. 
+•	El área de Compras realiza el pedido de mercadería y le encarga al sector de tesorería reunir los documentos que constatan la compra para proceder con la recepción de dicho pedido (órdenes de compra, informe de recepción, remitos del proveedor). Luego tesorería realiza los pagos de la factura y envía la documentación al sector contable a los fines de que quede asentado el proceso de compras y, a su vez, le informa al área de compras que las facturas han sido abonadas para que ellos procedan con su circuito. Indicado en la Figura 3.
+•	El área de Recursos Humanos envía al sector de finanzas el informe de los sueldos a pagar, tesorería libera el dinero requerido y contabilidad registra los pagos. (Figura 4)
+•	El área de Marketing y de Gerencia General, envía al área de finanzas el informe de los gastos que tuvo la empresa, tesorería libera el dinero requerido y contabilidad registra los pagos para llevar una correcta trazabilidad del flujo de dinero, como podemos observar en la Figura 4. 
+•	El área de Finanzas le remite al sector de Gerencia General toda la información sobre los ingresos, gastos, flujos de dinero, entre otros, para que esta área pueda hacer una correcta toma de decisiones.
+  
+Figura 1
+<imagen>
+Organigrama del área de Finanzas de la empresa SuperMami
+Nota: El gráfico representa la composición interna del sector de Finanzas en la empresa SuperMami.
+ 
+Figura 2
+<imagen>
+Proceso de Contabilidad de las Ventas sin SI
+Nota: El gráfico representa el proceso de contabilidad de las ventas, llevada a cabo por el área de Finanzas, con sus respectivas subáreas de Contabilidad y Tesorería, y la relación con el área de Ventas. Esto es sin tener implementado el S.I.
+ 
+Figura 3
+<imagen>
+Proceso de Contabilidad de las Compras sin SI
+Nota: El gráfico representa el proceso de contabilidad de las compras, llevada a cabo por el área de Finanzas, con sus respectivas subáreas de Contabilidad y Tesorería, y la relación con el área de Compras. Esto es sin tener implementado el S.I.
+ 
+Figura 4
+<imagen>
+Proceso de Contabilidad de Gastos y Sueldos sin SI 
+Nota: El gráfico representa el proceso de contabilidad de los gastos y sueldos, llevada a cabo por el área de Finanzas, con sus respectivas subáreas de Contabilidad y Tesorería, y la relación con las áreas de Gerencia General, Marketing y Recursos Humanos. Esto es sin tener implementado el S.I.
+
+Diagnóstico del sistema
+Tras analizar el relevamiento, quedó en evidencia que en el funcionamiento del área de finanzas se pueden observar distintas vulnerabilidades en la integridad de datos, tales como la posibilidad de fallas de seguridad, pérdidas de información, entre otros. Ya que si bien es un sistema que puede funcionar correctamente se trata de un sistema obsoleto y unipersonal.
+Por un lado, el sector de contabilidad del área de Finanzas realiza el almacenamiento de datos por medio de Microsoft Excel, el cual es realizado por una sola persona (la Gerenta del área), ya que no cuentan con un programa que permita la edición al mismo tiempo por otro usuario, lo que genera que la información vaya pasando de mano en mano a través de varios archivos Excel. La pérdida de alguna anotación puede traer varios inconvenientes en un área tan importante como la analizada. 
+A su vez, en el sector de tesorería también se realiza la documentación comercial en ficheros Excel modificando los datos a medida que se lo requiera a mano, provocando demoras, problemas de tipeo y problemas de formateo del diseño.
+Todo lo antedicho trae aparejado una gran pérdida de tiempo, ya que la recolección de información y el traspaso de la misma al archivo Excel es realizada una vez al día, no encontrándose de esta manera actualizada la información minuta a minuto, pudiendo existir diferencias en los saldos de las distintas cuentas.
