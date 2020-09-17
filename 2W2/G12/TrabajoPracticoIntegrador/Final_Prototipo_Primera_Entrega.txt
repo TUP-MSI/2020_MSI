@@ -1,0 +1,8 @@
+*El sistema debe proporcionar seguridad limitando el acceso al sistema solo para personal que disponga de usuario y contraseña
+*El sistema debe estar siempre disponible para permitir acceso a la información del mismo. 24/7 ,( 24 horas al día, 7 días a la semana),
+*El sistema debe ser Multiplataforma disponible para Windows, MacOs y Linux. 
+*El sistema debe tener compatibilidad con el sistema operativo Android y iOS.
+*El sistema debe contar con una interfaz gráfica funcional y de fácil lectura .
+*El sistema tiene que tener la capacidad de que el rendimiento mejore en próximas versiones.
+*El sistema deberá encriptar usuarios, contraseñas y los saldos de las cuentas contables, como así también, los informes contables.
+*El sistema tendrá servicios que realicen backups cada 24 hs
