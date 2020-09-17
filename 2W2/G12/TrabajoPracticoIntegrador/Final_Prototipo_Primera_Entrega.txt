@@ -2,4 +2,6 @@ Propuesta:
  Brindamos un Sistema de Información orientado a Finanzas que tiene la capacidad de cubrir las necesidades de la Gestión de Cuentas Contables, ofrece la posibilidad de crear,
 actualizar y/o eliminar las cuentas contables necesarias pudiendo generar informes de cada una de ellas. 
 Otras de las capacidades que tiene el sistema son la registración de los gastos e ingresos de la empresa por mes, ofreciendo poder generar reportes de cada uno,
-de manera diaria, semanal, mensual o anual.
+de manera diaria, semanal, mensual o anual. Asi como puede monitorear los ingresos y gastos, el sistema ofrece la posibilidad de gestionar asientos contables y
+ajustes contables, emitiendo reportes con la informes de los mismos cuando sea requerido. Podrá generar un reporte de cada banco(con sus respectivos datos)que sea socio de la empresa,
+también se podrá gestionar las conciliaciones bancarias, es decir, agregar y/o actualizarlas cuando sea necesario y si lo requiere, podrá generar un reporte de las distintas transacciones de cada banco.
