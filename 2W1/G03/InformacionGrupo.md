@@ -1,4 +1,4 @@
-# Información del Grupo Nº [< GRUPO>] - [< CURSO>]
+# Información del Grupo Nº 03 - 2W1
 
 
 ## Nombre del Grupo :zap:
