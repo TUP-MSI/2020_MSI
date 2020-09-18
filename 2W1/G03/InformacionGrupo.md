@@ -14,7 +14,7 @@
 | 110917 | Guardia Otero,Luciano |[Luciano-GuardiaOtero](https://github.com/Luciano-GuardiaOtero)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111157 | Godoy, Joaquin | [111157JoaquinGodoy](https://github.com/111157JoaquinGodoy) |[UserLinkedin](https://ar.linkedin.com/)|
 | 111120 | Garcia Racigh, Nicolas |[111120](https://github.com/111120)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110787 | Pedrosa,Ignacio Agustin |[pedrosa110787](https://github.com/pedrosa110787)|
 
 
 # Checklist de estado de actividad
