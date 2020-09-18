@@ -8,7 +8,7 @@
 | Legajo| Apellidos Nombres  | Cuenta GitHub | Linkedin
 | :------: | :-------- | :-------- | :-------- |
 | 111660 | Diaz, Alexandros Ernesto |[UsuarioGitHub](https://github.com/Aleft)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 111575 | Reyna Benedetto, Ana Laura |[UsuarioGitHub](https://github.com/Anareynab)|[UserLinkedin](https://ar.linkedin.com/ana-laura-reyna-benedetto-5831821b2)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 
