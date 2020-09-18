@@ -1,4 +1,4 @@
-# Información del Grupo Nº [G07] - [2W50]
+# Información del Grupo Nº [07] - [2W50]
 
 
 ## Nombre del Grupo: 404_TEAM :zap:
@@ -11,6 +11,7 @@
 | 111575 | Reyna Benedetto, Ana Laura |[UsuarioGitHub](https://github.com/Anareynab)|[UserLinkedin](https://ar.linkedin.com/ana-laura-reyna-benedetto-5831821b2)|
 | 109505 | Roldán, Facundo |[UsuarioGitHub](https://github.com/facuroldan)|[UserLinkedin](https://www.linkedin.com/in/facundo-roldan-7326271b3/)|
 | 111555 | Maldonado, Lucas Dario |[UsuarioGitHub](https://github.com/LucasDMaldonado)|[UserLinkedin](https://www.linkedin.com/in/lucas-maldonado-36ab071b3/)|
+| 111563 | Moyano, Sergio Ariel |[UsuarioGitHub](https://github.com/sergiooo22)|[UserLinkedin](https://ar.linkedin.com/)|
 
 
 # Checklist de estado de actividad
