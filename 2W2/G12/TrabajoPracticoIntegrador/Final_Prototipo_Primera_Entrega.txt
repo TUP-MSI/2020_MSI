@@ -226,3 +226,25 @@ Requerimientos No Funcionales:
 *El sistema contará con una inmersión en el uso dependiendo del rol del usuario para su fácil comprensión de manejo
 *El sistema será montado en ambiente de multi servidores para suprimir las demoras en flujo del trabajo de la empresa por caídas inesperadas del SI
 
+Acta de Constitución del Proyecto
+
+Software para el Área de Finanzas del SuperMami
+
+Justificación y Descripción del Proyecto
+Este proyecto fue creado para brindar un Sistema de Información orientado al área de Finanzas del SuperMami, que tiene la capacidad de cubrir las necesidades insatisfechas de este sector.
+
+Objetivos
+Alcance: Gestionar cuentas contables, gestionar asientos contables, gestionar informes contables, gestionar bancos, gestionar ingresos y gestionar gastos.
+Tiempo: 02 de noviembre del 2020
+
+Interesados Clave
+•	Nuñez Fabrizio, Director del Proyecto
+•	Brito Nahuel, Herrera Paola, López Miguel, Maldonado Enzo, Santiso Marina, Miembros del proyecto
+•	 María Elena Robles, Gerenta de Finanzas
+•	Maximo Capdevila, Subgerente de Contabilidad
+•	Agustina Leal, Subgerenta de Tesorería
+
+Lista de Hitos
+•	20/09: Primer entrega
+•	13/10: Segunda entrega
+•	02/11: Tercer entrega
