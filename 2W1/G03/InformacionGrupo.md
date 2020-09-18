@@ -3,7 +3,7 @@
 
 ## Nombre del Grupo :zap:
 
-* [Nombre del grupo: Utilicen un alias o nombre trivial que los identifique. Recuerden que estamos en el ámbito universitario, por lo cual deberán tener en cuenta que el mismo no sea ofensivo, etc.]
+TakeItEASY
 
 
 ## Integrantes :busts_in_silhouette:
