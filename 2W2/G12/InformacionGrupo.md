@@ -1,4 +1,4 @@
-# Información del Grupo Nº [12] - [2W2]
+﻿# Información del Grupo Nº [12] - [2W2]
 
 
 ## Totoros :zap:
@@ -11,7 +11,7 @@
 | Legajo| Apellidos Nombres  | Cuenta GitHub | Linkedin
 | :------: | :-------- | :-------- | :-------- |
 | 110614 | Brito, Nahuel Javier |[UsuarioGitHub](https://github.com/brito-nahuel-2w2-110614)|[UserLinkedin](https://www.linkedin.com/in/nahuel-brito-3a7824198/)|
-borrar paola
+| 111003 | Herrera, Paola |[UsuarioGitHub](https://github.com/Paola-Herrera-111003-2w2) |-|
 borrar miguel
 borrar enzo
 borrar fabrizio
