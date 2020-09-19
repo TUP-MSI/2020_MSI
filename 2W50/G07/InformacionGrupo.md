@@ -13,6 +13,7 @@
 | 111555 | Maldonado, Lucas Dario |[UsuarioGitHub](https://github.com/LucasDMaldonado)|[UserLinkedin](https://www.linkedin.com/in/lucas-maldonado-36ab071b3/)|
 | 111563 | Moyano, Sergio Ariel |[UsuarioGitHub](https://github.com/sergiooo22)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111512 | Cejas, Flavio Ezequiel |[UsuarioGitHub](https://github.com/flavio216)|[UserLinkedin](https://www.linkedin.com/in/flavio-cejas-2215511b3/)|
+| 111589 | Ruiz, Gonzalo,  |[UsuarioGitHub](https://github.com/Gonzalo261)|[UserLinkedin](https://www.linkedin.com/in/gonzalo-ruiz-baa89118a/)|
 
 
 # Checklist de estado de actividad
