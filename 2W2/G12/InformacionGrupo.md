@@ -10,7 +10,7 @@
 
 | Legajo| Apellidos Nombres  | Cuenta GitHub | Linkedin
 | :------: | :-------- | :-------- | :-------- |
-borrar nahuel
+| 110614 | Brito, Nahuel Javier |[UsuarioGitHub](https://github.com/brito-nahuel-2w2-110614)|[UserLinkedin](https://www.linkedin.com/in/nahuel-brito-3a7824198/)|
 borrar paola
 borrar miguel
 borrar enzo
