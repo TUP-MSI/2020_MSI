@@ -1,7 +1,7 @@
 # Información del Grupo Nº [07] - [2w1]
 
 
-## Nombre del Grupo Gitvast :zap:
+## Nombre del Grupo Gitvast :zap: :zap:
 
 
 ## Integrantes :busts_in_silhouette:
