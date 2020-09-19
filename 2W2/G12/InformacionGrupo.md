@@ -14,7 +14,7 @@
 | 111003 | Herrera, Paola |[UsuarioGitHub](https://github.com/Paola-Herrera-111003-2w2) |-|
 | 111103 | Miguel, Lopez |[UsuarioGitHub](https://github.com/miguellopez856) |-|
 | 111005 | Maldonado, Enzo |[UsuarioGitHub](https://github.com/111005MaldonadoEnzo2W2)|-|
-borrar fabrizio
+| 111444 | Nuñez, Fabrizio Fabián |[UsuarioGitHub](https://github.com/fabrizionunez111444)|[UserLinkedin](https://www.linkedin.com/in/fabrizio-nu%C3%B1ez-191295179/)|
 borrar marina
 
 
