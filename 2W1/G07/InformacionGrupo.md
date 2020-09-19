@@ -11,7 +11,7 @@
 | 110892 | Giannico, Agustina |[agustinagiannico](https://github.com/agustinagiannico)|[AgustinaGiannico](https://www.linkedin.com/in/agustina-giannico-6b0a4418b/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111111 | Alvarez, Alvin |[110824Al](https://github.com/110824Al)|[Alvin Alvarez](https://www.linkedin.com/in/alvin-alvarez-6a65111b7/)|
+| 111111 | Alvarez, Alvin. |[110824Al](https://github.com/110824Al)|[Alvin Alvarez](https://www.linkedin.com/in/alvin-alvarez-6a65111b7/)|
 
 
 # Checklist de estado de actividad
