@@ -13,7 +13,7 @@
 | 110614 | Brito, Nahuel Javier |[UsuarioGitHub](https://github.com/brito-nahuel-2w2-110614)|[UserLinkedin](https://www.linkedin.com/in/nahuel-brito-3a7824198/)|
 | 111003 | Herrera, Paola |[UsuarioGitHub](https://github.com/Paola-Herrera-111003-2w2) |-|
 | 111103 | Miguel, Lopez |[UsuarioGitHub](https://github.com/miguellopez856) |-|
-borrar enzo
+| 111005 | Maldonado, Enzo |[UsuarioGitHub](https://github.com/111005MaldonadoEnzo2W2)|-|
 borrar fabrizio
 borrar marina
 
