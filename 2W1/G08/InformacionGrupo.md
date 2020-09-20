@@ -12,6 +12,8 @@
 | :------: | :-------- | :-------- | :-------- |
 | 111289 | Cumiano,  Nicolas |[UsuarioGitHub](https://github.com/FedericoCumiano)|[UserLinkedin](https://www.linkedin.com/in/fede-cumiano/)|
 | 110926 | Tisera, Gustavo Matias |[UsuarioGitHub](https://github.com/Gustavotisera)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110977 | Villagran, Joaquin Gabriel |[UsuarioGitHub](https://github.com/VillagranJoaquin)|[UserLinkedin](https://ar.linkedin.com/)|
+| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 
