@@ -12,7 +12,7 @@
 | 111610 | Zaragoza, Angel Gabriel |[AngelZaragoza](https://github.com/AngelZaragoza)| [Angel Gabriel Zaragoza](https://www.linkedin.com/in/angel-gabriel-zaragoza-concorr)|
 | 111647 | Cejas, Federico Emmanuel |[Fekiso](https://github.com/Fekiso)|[Federico Emmanuel Cejas](https://www.linkedin.com/in/federico-emmanuel-cejas-838490162/)|
 | 111521 | Diaz Rodriguez, Marcos Andres |[MarcosDiaz21](https://github.com/MarcosDiaz21)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 111483 | Alanes Aguilar, Zenobia |[AlanesZA](https://github.com/AlanesZA)|[Zenobia Alanes](https://ar.linkedin.com/alanesza)|
 
 
 # Checklist de estado de actividad
