@@ -13,7 +13,7 @@
 | 111055 | Ahumada, María Rocío      |[Rocío600](https://github.com/Rocio600)|[María Rocío Ahumada](https://www.linkedin.com/in/mar%C3%ADa-roc%C3%ADo-ahumada-273976162/)|
 | 106459 | Pagano, Pablo Cesar |[pcpagano](https://github.com/pcpagano)|[Pablo Cesar Pagano](https://www.linkedin.com/in/pcpagano/)|
 | 111159 | Barrionuevo, María Victoria |[VMBarrionuevo](https://github.com/VMBarrionuevo)|[María Victoria Barrionuevo](https://www.linkedin.com/in/mvbarrionuevo/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110944 | Luna, Javier Emilio |[2W2LunaJavier110944](https://github.com/2W2LunaJavier110944)|[Javier Luna](https://www.linkedin.com/in/javier-luna-90b34b160/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 
