@@ -9,7 +9,7 @@
 
 | Legajo| Apellidos Nombres  | Cuenta GitHub | Linkedin
 | :------: | :-------- | :-------- | :-------- |
-| 111610 | Zaragoza, Angel Gabriel |[AngelZaragoza](https://github.com/AngelZaragoza)|[Angel Gabriel Zaragoza](www.linkedin.com/in/angel-gabriel-zaragoza-concorr)|
+| 111610 | Zaragoza, Angel Gabriel |[AngelZaragoza](https://github.com/AngelZaragoza)| [Angel Gabriel Zaragoza](www.linkedin.com/in/angel-gabriel-zaragoza-concorr)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
