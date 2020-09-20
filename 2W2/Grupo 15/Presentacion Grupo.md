@@ -14,7 +14,7 @@
 | 111147 | Vega, Leonel Gonzalo |[UsuarioGitHub](https://github.com/VegaLeonel)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111047 | Molina, Juan Pablo |[UsuarioGitHub](https://github.com/juanMolina14)|[UserLinkedin](https://ar.linkedin.com/)|
 | 110708 | Britos, Facundo Ismael |[UsuarioGitHub](https://github.com/facubritos)|[UserLinkedin](https://www.linkedin.com/in/facundo-ismael-britos-luesma-b8489319a/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 111092 | López, Tomás |[UsuarioGitHub](https://github.com/111092LopezTomas[2W2-G15-FB])|[UserLinkedin](https://ar.linkedin.com/)|
 
 
 # Checklist de estado de actividad
