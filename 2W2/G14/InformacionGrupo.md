@@ -12,7 +12,7 @@
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110688 | Blanco, Carolina Vanesa |[UsuarioGitHub](https://github.com/1106882w2BlancoCarolina)||
 | 109280 | Lopez, Mauricio Ezequiel |[UsuarioGitHub](https://github.com/MauricioLopez-109280)|[UserLinkedin](https://ar.linkedin.com/)|
 
 # Checklist de estado de actividad
