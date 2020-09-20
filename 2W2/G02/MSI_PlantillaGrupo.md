@@ -15,7 +15,6 @@
 | 111159 | Barrionuevo, María Victoria |[VMBarrionuevo](https://github.com/VMBarrionuevo)|[María Victoria Barrionuevo](https://www.linkedin.com/in/mvbarrionuevo/)|
 | 110944 | Luna, Javier Emilio |[2W2LunaJavier110944](https://github.com/2W2LunaJavier110944)|[Javier Luna](https://www.linkedin.com/in/javier-luna-90b34b160/)|
 | 110930 | de Bernardo, Lautaro Martin |[martindeber8](https://github.com/martindeber8)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 108839 | Farias Pagliafora, Brian Ismael |[brianfariasp](https://github.com/brianfariasp)|[brian-farias-007781170](https://www.linkedin.com/in/brian-farias-007781170//)|
 
 
