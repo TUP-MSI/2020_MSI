@@ -14,7 +14,7 @@
 | 110824 | Alvarez, Alvin |[110824Al](https://github.com/110824Al)|[Alvin Alvarez](https://www.linkedin.com/in/alvin-alvarez-6a65111b7/)|
 | 110989 | Aybar, Jonathan Gabriel |[jonathanaybar](https://github.com/jonathanaybar)|[Jonathan Aybar](https://www.linkedin.com/in/jonathan-aybar-b1674712b/)|
 | 110784 | Musumeci, Tomas |[TomasMusumeci](https://github.com/TomasMusumeci)|[Tomas Musumeci](https://www.linkedin.com/in/tomas-musumeci-4a7a37197/)|
-| 111111 | Gonzalez, Juan |[2w1-111176-JuanGonzalez](https://github.com/2w1-111176-JuanGonzalez)|[UserLinkedin](https://ar.linkedin.com/)|
+| 111176 | Gonzalez, Juan |[2w1-111176-JuanGonzalez](https://github.com/2w1-111176-JuanGonzalez)|[UserLinkedin](https://ar.linkedin.com/)|
 
 
 # Checklist de estado de actividad
