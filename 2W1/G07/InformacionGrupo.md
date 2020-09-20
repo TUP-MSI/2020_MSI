@@ -13,7 +13,7 @@
 | 110965 | Mansilla, Ignacio         | [IgnacioMansilla2w1](https://github.com/IgnacioMansilla2w1) | [Ignacio Mansilla Gomez](https://www.linkedin.com/in/ignacio-mansilla-gomez-3502551a3/) |
 | 110824 | Alvarez, Alvin |[110824Al](https://github.com/110824Al)|[Alvin Alvarez](https://www.linkedin.com/in/alvin-alvarez-6a65111b7/)|
 | 110989 | Aybar, Jonathan Gabriel |[jonathanaybar](https://github.com/jonathanaybar)|[Jonathan Aybar](https://www.linkedin.com/in/jonathan-aybar-b1674712b/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110784 | Musumeci, Tomas |[TomasMusumeci](https://github.com/TomasMusumeci)|[Tomas Musumeci](https://www.linkedin.com/in/tomas-musumeci-4a7a37197/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 
 
