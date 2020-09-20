@@ -1,7 +1,6 @@
 # Información del Grupo Nº [<02>] - [<2W1>]
 
-
-## Nombre del Grupo :zap:
+## Nombre del Grupo :  Hello World Team :
 
 
 ## Integrantes :busts_in_silhouette:
@@ -11,15 +10,16 @@
 | 109655 | Nieva, Alexis Maximiliano |[UsuarioGitHub](https://github.com/109655-2W1-NievaAlexis)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110630 | Yammal, Lucia|[UsuarioGitHub](https://github.com/luciayammal)|[UserLinkedin](https://ar.linkedin.com/)|
 
 
 # Checklist de estado de actividad
 
 ## Trabajo Practico Entregas :clipboard:
-- [ ] Entrega Primera Parte
+- [x] Entrega Primera Parte
 - [ ] Entrega Segunda Parte
 - [ ] Entrega Tercera Parte
 
 ## Trello :clipboard:
-- [ ] Capturas del tablero de Trello
+- [x] Capturas del tablero de Trello
+
