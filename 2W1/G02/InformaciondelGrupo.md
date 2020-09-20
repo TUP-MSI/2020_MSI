@@ -1,7 +1,6 @@
 # Información del Grupo Nº [<02>] - [<2W1>]
 
-
-## Nombre del Grupo :zap:
+## Nombre del Grupo : zap:
 
 
 ## Integrantes :busts_in_silhouette:
@@ -9,6 +8,7 @@
 | Legajo| Apellidos Nombres  | Cuenta GitHub | Linkedin
 | :------: | :-------- | :-------- | :-------- |
 | 109655 | Nieva, Alexis Maximiliano |[UsuarioGitHub](https://github.com/109655-2W1-NievaAlexis)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110630 | Yammal, Lucia  |[UsuarioGitHub](https://github.com/luciayammal)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
