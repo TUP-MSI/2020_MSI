@@ -10,10 +10,11 @@
 | :------: | :-------- | :-------- | :-------- |
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
-| 110437 | Lovecchio, Matias |[UsuarioGitHub](https://github.com/110437-2w2-MatiasLovecchio)|[UserLinkedin](linkedin.com/in/matías-lovecchio-42414524)|
+| 111111 | Lovecchio, Matias |[UsuarioGitHub](https://github.com/110437-2w2-MatiasLovecchio)|[UserLinkedin](linkedin.com/in/matías-lovecchio-42414524)|
 | 109921 | Balsamo, Franco Joel |[UsuarioGitHub](https://github.com/109921-FrancoBalsamo-2w2)
 | 110688 | Blanco, Carolina Vanesa |[UsuarioGitHub](https://github.com/1106882w2BlancoCarolina)||
 | 109280 | Lopez, Mauricio Ezequiel |[UsuarioGitHub](https://github.com/MauricioLopez-109280)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110352 | Maldonado, Santiago |[UsuarioGitHub](https://github.com/santimaldonado)|[UserLinkedin](https://www.linkedin.com/in/santiagomaldonado23/)|
 
 # Checklist de estado de actividad
 
