@@ -23,6 +23,11 @@
 <td align="left">Pena Hernan Mauricio</td>
 <td align="left"><a href="https://github.com/Blackhorde-coder">UsuarioGitHub</a></td>
 </tr>
+<tr>
+<td align="center">111707</td>
+<td align="left">Paredes Cornelio ,Karla Sheyla</td>
+<td align="left"><a href="https://github.com/karlaCornelio">UsuarioGitHub</a></td>
+</tr>
 
 </tbody>
 </table>
