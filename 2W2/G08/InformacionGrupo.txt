@@ -5,3 +5,4 @@ Legajo            Apellidos Nombres        Cuenta Github                Linkedin
 110792            Moreno Gonzalo            110792-Moreno-Gonzalo-2W2   https://www.linkedin.com/in/gonzalo-moreno-vrabac-8b8728a9/
 110835            Fernandez Denisse         fernandezdenisse
 110618            Ferrarese Giorgina        GiorginaFerrarese110618
+110594            Figueroa Edison           edisonfigueroa-2W2-G08-MSI2020
