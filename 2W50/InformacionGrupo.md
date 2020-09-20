@@ -33,6 +33,11 @@
 <td align="left">Banuera, Aldana Laura</td>
 <td align="left"><a href="https://github.com/aldanaba97">UsuarioGitHub</a></td>
 </tr>
+<tr>
+<td align="center">111606</td>
+<td align="left">Visintini, Ezequiel Favio</td>
+<td align="left"><a href="https://github.com/evisintini">UsuarioGitHub</a></td>
+</tr>
 </tbody>
 </table>
 
