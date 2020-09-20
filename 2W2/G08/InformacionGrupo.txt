@@ -1,5 +1,5 @@
 INTEGRANTES
 
-Legajo            Apellidos Nombres        Cuenta Github     Linkedin
-111029            Cuello Maximiliano        maxicuello       https://www.linkedin.com/in/maximiliano-cuello-5724231b3
-110835            Fernandez Denisse         fernandezdenisse  
+Legajo            Apellidos Nombres        Cuenta Github                Linkedin
+111029            Cuello Maximiliano        maxicuello                  https://www.linkedin.com/in/maximiliano-cuello-5724231b3
+110792            Moreno Gonzalo            110792-Moreno-Gonzalo-2W2   https://www.linkedin.com/in/gonzalo-moreno-vrabac-8b8728a9/
