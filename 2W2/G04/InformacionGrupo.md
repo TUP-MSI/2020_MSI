@@ -1,7 +1,7 @@
-# Información del Grupo Nº [< GRUPO>] - [< CURSO>]
+﻿# Información del Grupo Nº [<04>] - [<2W2>]
 
 
-## Nombre del Grupo :zap:
+## Los Magios :zap:
 
 * [Nombre del grupo: Utilicen un alias o nombre trivial que los identifique. Recuerden que estamos en el ámbito universitario, por lo cual deberán tener en cuenta que el mismo no sea ofensivo, etc.]
 
@@ -16,7 +16,7 @@
 | 111136 | Benitez, Lucas Esteban |[DvLucasUTN](https://github.com/DvLucasUTN)|[Lucas Benitez](https://www.linkedin.com/in/p-lucas-benitez/)|
 | 110838 | Goitea, Mauro Goitea |[MauroGoitea](https://github.com/MauroGoitea)|[Mauro Goitea](https://www.linkedin.com/in/mauro-goitea-577a451b6/)|
 | 111086 | Raza, Maximiliano |[MaximilianoRaza111086](https://github.com/MaximilianoRaza111086)|[Maximiliano Raza](https://www.linkedin.com/in/maximiliano-raza-15aa3b140/)| 
-
+| 108396 | Sanchez Diez, Mariano |[Marianosd10](https://github.com/Marianosd10)|[Mariano Sanchez Diez](https://www.linkedin.com/in/mariano-sanchez-diez-570676153/)| 
 
 
 # Checklist de estado de actividad
