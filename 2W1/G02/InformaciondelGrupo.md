@@ -1,6 +1,6 @@
 # Información del Grupo Nº [<02>] - [<2W1>]
 
-## Nombre del Grupo : zap:
+## Nombre del Grupo : ¡Hello World Team!
 
 
 ## Integrantes :busts_in_silhouette:
