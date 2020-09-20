@@ -10,11 +10,10 @@
 
 | Legajo| Apellidos Nombres  | Cuenta GitHub | Linkedin
 | :------: | :-------- | :-------- | :-------- |
-| 110938 | Gordillo, Lucas |[lgordillo18](https://github.com/lgordillo18)|[Lucas Gordillo](https://www.linkedin.com/in/lucas-gordillo-2281b7134/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
-
+| 110938 | Gordillo, Lucas |[lgordillo18](https://github.com/lgordillo18)%7C[Lucas Gordillo](https://www.linkedin.com/in/lucas-gordillo-2281b7134/)%7C
+| 109134 | Todesco, Eddie Fernando |[UsuarioGitHub](https://github.com/109134Todesco)%7C[Fernando Todesco](https://www.linkedin.com/in/fernando-todesco/)%7C
+| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)%7C[UserLinkedin](https://ar.linkedin.com/)%7C
+| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)%7C[UserLinkedin](https://ar.linkedin.com/)%7C
 
 # Checklist de estado de actividad
 
