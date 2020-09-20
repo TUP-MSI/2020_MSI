@@ -11,7 +11,7 @@
 | Legajo| Apellidos Nombres  | Cuenta GitHub | Linkedin
 | :------: | :-------- | :-------- | :-------- |
 | 110879 | Gulli, Marcos Ezequiel |[UsuarioGitHub](https://github.com/marcosgulli)|[UserLinkedin](https://ar.linkedin.com/marcos-gulli-57a693134)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 111147 | Vega, Leonel Gonzalo |[UsuarioGitHub](https://github.com/VegaLeonel)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 
