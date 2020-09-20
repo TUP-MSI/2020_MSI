@@ -10,16 +10,16 @@
 | :------: | :-------- | :-------- | :-------- |
 | 109655 | Nieva, Alexis Maximiliano |[UsuarioGitHub](https://github.com/109655-2W1-NievaAlexis)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111077 | Medina, Franco  |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 111077 | Medina, Franco  |[UsuarioGitHub](https://github.com/FranMedi25)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 
 
 # Checklist de estado de actividad
 
 ## Trabajo Practico Entregas :clipboard:
-- [ ] Entrega Primera Parte
+- [X] Entrega Primera Parte
 - [ ] Entrega Segunda Parte
 - [ ] Entrega Tercera Parte
 
 ## Trello :clipboard:
-- [ ] Capturas del tablero de Trello
+- [X] Capturas del tablero de Trello
