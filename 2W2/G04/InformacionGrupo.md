@@ -15,6 +15,7 @@
 | 110788 | Hernández, Luis María |[luismariah](https://github.com/luismariah)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111136 | Benitez, Lucas Esteban |[DvLucasUTN](https://github.com/DvLucasUTN)|[Lucas Benitez](https://www.linkedin.com/in/p-lucas-benitez/)|
 | 110838 | Goitea, Mauro Goitea |[MauroGoitea](https://github.com/MauroGoitea)|[Mauro Goitea](https://www.linkedin.com/in/mauro-goitea-577a451b6/)|
+| 111086 | Raza, Maximiliano |[MaximilianoRaza111086](https://github.com/MaximilianoRaza111086)|[Maximiliano Raza](https://www.linkedin.com/in/maximiliano-raza-15aa3b140/)| 
 
 
 
