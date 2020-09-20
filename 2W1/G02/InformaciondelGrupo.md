@@ -12,14 +12,16 @@
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110047 | Sastre, Hernan |[UsuarioGitHub](https://github.com/hernansastre)|[UserLinkedin](https://ar.linkedin.com/)|
 
 
 # Checklist de estado de actividad
 
 ## Trabajo Practico Entregas :clipboard:
-- [ ] Entrega Primera Parte
+- [x] Entrega Primera Parte
 - [ ] Entrega Segunda Parte
 - [ ] Entrega Tercera Parte
 
 ## Trello :clipboard:
-- [ ] Capturas del tablero de Trello
+- [x] Capturas del tablero de Trello
