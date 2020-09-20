@@ -2,3 +2,4 @@ INTEGRANTES
 
 Legajo            Apellidos Nombres        Cuenta Github     Linkedin
 111029            Cuello Maximiliano        maxicuello       https://www.linkedin.com/in/maximiliano-cuello-5724231b3
+110835            Fernandez Denisse         fernandezdenisse  
