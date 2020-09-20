@@ -15,7 +15,6 @@
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)%7C[UserLinkedin](https://ar.linkedin.com/)%7C
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)%7C[UserLinkedin](https://ar.linkedin.com/)%7C
 
-
 # Checklist de estado de actividad
 
 ## Trabajo Practico Entregas :clipboard:
