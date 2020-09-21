@@ -15,6 +15,7 @@
 | 111483 | Alanes Aguilar, Zenobia |[AlanesZA](https://github.com/AlanesZA)|[Zenobia Alanes](https://ar.linkedin.com/alanesza)|
 | 111637 | Canciani, Fernando Leo |[lcanciani](https://github.com/lcanciani)|[Fernando Canciani](https://www.linkedin.com/in/fer-canciani-991543192/)|
 | 111609 | Zanforlin, Carina Mariel |[ZanforlinCarina](https://github.com/ZanforlinCarina)|[Carina Zanforlin](https://www.linkedin.com/in/carina-zanforlin-16031987/)|
+| 111579 | Rodriguez, David Alberto |[Dave-ro](https://github.com/Dave-ro)|[David Rodriguez](https://www.linkedin.com/in/david-rodriguez-996b461b3/)|
 
 # Checklist de estado de actividad
 
