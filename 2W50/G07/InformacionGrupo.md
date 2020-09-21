@@ -19,9 +19,9 @@
 # Checklist de estado de actividad
 
 ## Trabajo Practico Entregas :clipboard:
--  & # 10004 Entrega Primera Parte
+- [x] Entrega Primera Parte
 - [ ] Entrega Segunda Parte
 - [ ] Entrega Tercera Parte
 
 ## Trello :clipboard:
-- [ ] Capturas del tablero de Trello
+- [x] Capturas del tablero de Trello
