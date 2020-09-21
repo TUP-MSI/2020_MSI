@@ -18,6 +18,7 @@
 | 108839 | Farias Pagliafora, Brian Ismael |[brianfariasp](https://github.com/brianfariasp)|[brian-farias-007781170](https://www.linkedin.com/in/brian-farias-007781170//)|
 
 
+
 # Checklist de estado de actividad
 
 ## Trabajo Practico Entregas :clipboard:
