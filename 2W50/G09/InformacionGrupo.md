@@ -25,5 +25,5 @@
 - [ ] Entrega Tercera Parte
 
 ## Trello :clipboard:
-- [ ] Capturas del tablero de Trello
+- [x] Capturas del tablero de Trello
 
