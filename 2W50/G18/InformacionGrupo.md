@@ -14,7 +14,7 @@
 | 111728 | Sjodin Aguirre, Felipe Esteban |[UsuarioGitHub](https://github.com/FELIPE-SJODIN)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111486 | Altamirano, Analia |[UsuarioGitHub](https://github.com/111486)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111559 | Medina, Melina |[UsuarioGitHub](https://github.com/MelinaMedina)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 111487 | Ambrosio, Maria Celeste |[UsuarioGitHub](https://github.com/CelesteAmbrosio1)|[UserLinkedin](https://ar.linkedin.com/)|
 
 
 # Checklist de estado de actividad
