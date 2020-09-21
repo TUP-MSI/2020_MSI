@@ -10,7 +10,7 @@
 | :------: | :-------- | :-------- | :-------- |
 | 111574 | Ramallo, Agustin Alejandro |[Agustin-Alejandro-Ramallo](https://github.com/Agustin-Alejandro-Ramallo)|[Agustin Alejandro Ramallo](https://www.linkedin.com/in/agustin-alejandro-ramallo-591647114/)
 | 111567 | Parizia, Leandro Joaquin |[leajparizia](https://github.com/leajparizia)|[Leandro Parizia](https://www.linkedin.com/in/lea-parizia-19580737/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 111693 | Morano, Yamila Rocio |[YamiMorano](https://github.com/YamiMorano)|[]()|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 
 
