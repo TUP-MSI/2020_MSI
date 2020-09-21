@@ -19,7 +19,7 @@
 # Checklist de estado de actividad
 
 ## Trabajo Practico Entregas :clipboard:
-- [ &#10004] Entrega Primera Parte
+-  & # 10004 Entrega Primera Parte
 - [ ] Entrega Segunda Parte
 - [ ] Entrega Tercera Parte
 
