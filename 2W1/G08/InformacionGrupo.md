@@ -14,7 +14,7 @@
 | 110926 | Tisera, Gustavo Matias |[UsuarioGitHub](https://github.com/Gustavotisera)|[UserLinkedin](https://ar.linkedin.com/)|
 | 110977 | Villagran, Joaquin Gabriel |[UsuarioGitHub](https://github.com/VillagranJoaquin)|[UserLinkedin](https://ar.linkedin.com/)|
 | 110937 | Chiocarello, Lorenzo Dario |[UsuarioGitHub](https://github.com/LorenzoChiocarello)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 110845 | Picon Risso, Jose Samuel |[UsuarioGitHub](https://github.com/samuelpiconrisso)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
 
 
