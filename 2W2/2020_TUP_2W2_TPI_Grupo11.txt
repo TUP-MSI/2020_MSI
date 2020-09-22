@@ -1,0 +1,8 @@
+APELLIDO  y NOMBRE            | LINKEDIN	    |  USUARIO GITHUB	 	 | LEGAJO |
+-------------------------------------------------------------------------------------------
+CERDOSINO, Ángeles            | Ángeles Cerdosino   | 2W2110994AngelesCerdosino	 | 110994 |
+MALBRÁN, Pablo                | Pablo Malbran	    | malbranpablo		 | 107485 |
+ELLIBOSKY , Cristián          | Cristian Mellibosky | 111097	                 | 111097 |
+ORTOPÁN , Alejandra Nancy     | No tiene	    | 110877Ortopan		 | 110877 |
+PASQUALETTI , Ricardo Gabriel | No tiene	    | Gabriel Pasqualetti	 | 111017 |
+PECHA, Macarena Janet         | Macarena Pecha	    | 111007-2w2-MacaPecha	 | 111007 |
