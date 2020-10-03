@@ -10,7 +10,7 @@
 
 | Legajo| Apellidos Nombres  | Cuenta GitHub | Linkedin
 | :------: | :-------- | :-------- | :-------- |
-| 111745 | Palacio, Daniel Ezequiel|[UsuarioGitHub](https://github.com/danielpalacio79)|[UserLinkedin](https://ar.linkedin.com/in/daniel-palacio-94b63210)|
+| 111745 | Palacio, Daniel Ezequiel|[danielpalacio79](https://github.com/danielpalacio79)|[UserLinkedin](https://ar.linkedin.com/in/daniel-palacio-94b63210)|
 | 111728 | Sjodin Aguirre, Felipe Esteban |[UsuarioGitHub](https://github.com/FELIPE-SJODIN)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111486 | Altamirano, Analia |[UsuarioGitHub](https://github.com/111486)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111559 | Medina, Melina |[UsuarioGitHub](https://github.com/MelinaMedina)|[UserLinkedin](https://ar.linkedin.com/)|
