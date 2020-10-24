@@ -47,9 +47,9 @@
 </table>
 
 ## Entregas delTrabajo Practio 📦
-- [ ] Entrega Primera Parte
-- [ ] Entrega Segunda Parte
+- [x] Entrega Primera Parte
+- [x] Entrega Segunda Parte
 - [ ] Entrega Tercera Parte
 
 ## Capturas de Trello :clipboard:
-- [ ] Capturas del tablero de Trello
+- [x] Capturas del tablero de Trello
