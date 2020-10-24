@@ -1,0 +1,289 @@
+Planificacion del Proyecto
+En el proyecto se utilizan metodologías ágiles, tales como el marco de trabajo Scrum. Para lo cual se decidió hacer Sprints de 1 semana, ya que somos un equipo con un nivel principiante de madurez y experiencia. Por otro lado, para el seguimiento de las tareas utilizaremos el sistema de información Kanban a través del uso de Trello. En éste, registraremos, organizaremos y haremos un seguimiento de las tareas y actividades a cumplimentar.
+Con el fin de planificar mejor los tiempos y el proyecto confeccionamos una planilla de disponibilidad horaria de nuestro equipo conformado por 6 integrantes, de la cual inferimos que se contará con 4 horas diarias por persona para trabajar en el proyecto de lunes a sábados. Por otro lado, las horas dedicadas a reuniones serán en total 11,25 semanales, dando como resultado una capacidad del equipo de 156,75.
+Dentro de estas reuniones destacamos las dailys, organizadas por nuestro Scrum Master, ya que por este medio nuestro el equipo se sincroniza y prioriza la transparencia.
+A continuación, la Tabla 4 muestra la disponibilidad horaria de nuestro equipo: 
+Tabla 4
+Planilla de disponibilidad horaria del Grupo 12
+<tabla 4>
+Nota: Esta tabla muestra la/s franja/s horaria de cada integrante de nuestro equipo.
+Por último, realizamos un Diagrama de Gantt (Figura 8) para poder explayarnos mejor en la planificación del proyecto. Este gráfico incluye las especificaciones de la cátedra, como así también, el desarrollo del producto. 
+Se divide en cada gestión que compone nuestro Sistema de Información, donde, cabe destacar, que se incluye desarrollo, testing e implementación.
+En este gráfico, demostramos que el desarrollo e implementación del producto nos va a llevar 6 meses (de noviembre a abril).
+Figura 8
+Planificación del Proyecto – Diagrama de Gantt
+<figura 8>
+Nota: El gráfico representa la Planificación del Proyecto confeccionada por nuestro Grupo a través de un Diagrama de Gantt.
+
+Historia de Usuario Canónica
+Con el fin de estimar más efectivamente, seleccionamos entre todas las Historias de Usuario, aquella en la cual, todos los miembros de nuestro equipo, podía estimarla con certeza, midiendo el esfuerzo a partir de las tareas que la componen. Esto se debió a que era la más simple con respecto a las demás, consistiendo en solo hacer una consulta al backend.
+Dicha Historia de Usuario (Historia de Usuario Canónica), nos servirá para poder utilizarla de referencia al hacer el resto de las estimaciones. 
+A continuación, se muestra la Historia de Usuario elegida como Canónica.
+
+HU04: Cambiar estado de una cuenta contable 
+(Historia de Usuario Canónica)
+COMO subgerente del sector de Contabilidad QUIERO poder inhabilitar una cuenta contable PARA que la misma no pueda ser utilizada por el tiempo requerido
+Notas/Conversación:
+Quiero poder deshabilitar una cuenta contable para que no pueda ser usada en los asientos contables. Y volver a activarla si es necesario.	Estimación
+1	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA la selección de una cuenta contable CUANDO toco el botón *boton* ENTONCES el sistema deberá:
+Escenario 1: la cuenta contable activa deberá ser desactivada.
+Escenario 1: la cuenta contable inactiva deberá ser activada.
+
+
+HU16: Registrar asiento contable
+COMO contador QUIERO registrar un asiento contable PARA llevar una correcta trazabilidad de las finanzas de la empresa.
+Notas/Conversación:
+Quiero poder registrar un asiento contable para poder registrar los hechos económicos. 	Estimación
+5	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA la selección de “asientos contables” CUANDO se presione el botón “(+)” ENTONCES se carga la página con un formulario para registrar un nuevo asiento contable, contando con los siguientes campos:
+•	Fecha *
+•	Cuenta Contable *
+•	Saldo deudor **
+•	Saldo acreedor **
+•	Nota *
+* Estos campos son obligatorios.
+** Estos campos, aparte de obligatorios, son mutuamente excluyentes. Es decir, al cargar una cuenta, llenar el saldo deudor o acreedor es obligatorio, pero una vez llenado uno, no puede llenarse el otro para esa cuenta en este asiento.
+CA2: DADA la selección de una cuenta contable en el registro de un asiento contable CUANDO se ingrese el monto ENTONCES se debe ingresar OBLIGATORIAMENTE saldo deudor o acreedor, pero una vez llenado uno, no puede llenarse el otro para esa misma cuenta, deshabilitándose el campo contrario.
+CA3: DADO el formulario completo CUANDO se quiere guardar ENTONCES el sistema
+Escenario 1: El formulario se encuentra correctamente cargado:
+El sistema notificará por pantalla que el registro del asiento fue exitoso y limpiará los campos para poder ingresar otro nuevo registro si se lo desea.
+Escenario 2: El saldo del haber o debe es distinto al del debe o haber, respectivamente:
+El sistema notificará por pantalla que el registro no se puede realizar ya que el principio de la partida doble no se cumple al tener el saldo del debe diferente al saldo del haber.
+Escenario 3: Los campos obligatorios no se encuentran completos:
+El sistema deberá mostrar un mensaje por pantalla que notifique al usuario que hay datos que son requeridos y que no se llenó correctamente, remarcando el textbox que contiene el error.
+Escenario 4: Los campos contienen datos inválidos (ejemplo, letras en el textbox de los montos):
+El sistema deberá mostrar un mensaje por pantalla que notifique al usuario que los datos ingresados son incorrectos, remarcando el textbox que contiene el error.
+CA4: DADO un asiento nuevo CUANDO se realiza el guardado ENTONCES el sistema generará un identificador único para este asiento.
+
+ 
+HU17: Modificar asiento contable
+COMO contador QUIERO modificar un asiento contable PARA poder corregir errores de carga.
+Notas/Conversación:
+Quiero poder modificar un asiento contable en el caso de haberme equivocado de cuenta, monto, fecha u observación.	Estimación
+2	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA la selección de un asiento contable dentro de la pestaña de “asientos contables” CUANDO se presione el botón “( )” de un asiento contable en particular ENTONCES se cargará la página en el navegador con un formulario para modificar el asiento contable, contando con los siguientes campos previamente cargados:
+•	Fecha *
+•	Cuenta Contable *
+•	Saldo deudor **
+•	Saldo acreedor **
+•	Nota *
+* Estos campos son obligatorios.
+** Estos campos, aparte de obligatorios, son mutuamente excluyentes. Es decir, al cargar una cuenta, llenar el saldo deudor o acreedor es obligatorio, pero una vez llenado uno, no puede llenarse el otro para esa cuenta en este asiento. 
+CA2: DADO que el formulario se llenó correctamente CUANDO se presione el botón “guardar” ENTONCES el sistema guardará las modificaciones y mostrará por pantalla que se actualizó correctamente.
+
+ 
+HU18: Reporte asientos contables
+COMO subgerente del área de Contabilidad QUIERO tener un reporte de los asientos contables PARA poder contar con un informe imprimible. 
+Notas/Conversación:
+Quiero poder consultar el detalle de los asientos contable registrados e imprimirlo si es necesario.	Estimación
+3	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA la visualización del listado de los asientos contables CUANDO se selecciona uno o más de un asiento ENTONCES el sistema mostrará un botón “VER PDF”
+CA2: DADA el botón “(VER PDF) CUANDO se lo seleccione ENTONCES el sistema cargará un archivo PDF que contará con un formato de libro diario, teniendo la siguiente información:
+•	Fecha
+•	Nombre de la empresa
+•	Folio
+•	Asiento contable, con los siguientes datos:
+o	Número de asiento contable
+o	Nombre de las cuentas contables
+o	Saldo deudor/acreedor
+o	Nota
+•	Monto total deudor
+•	Monto total acreedor
+CA3: DADA la carga del archivo PDF CUANDO presione el botón descargar PDF ENTONCES el sistema descargará un archivo de tipo PDF con los asientos previamente seleccionados.
+
+
+
+Factibilidad Operativa
+
+Para poder implementar nuestro sistema, analizamos si el personal del área de finanzas del SuperMami está capacitado para poder operar con el sistema de manera exitosa y si muestran resistencia a la implementación del mismo. 
+Para poder constatar lo anteriormente nombrado, indagamos realizando las siguientes preguntas:
+•	¿Los usuarios están de acuerdo con el nuevo sistema? ¿Trabajarán con el sistema cuando se haya terminado o instalado?
+o	La directora general, los subgerentes y cada contador y tesorero están de acuerdo con el ingreso de un nuevo sistema y están expectantes al momento en que llegue para poder utilizarlo porque les facilitará mucho las tareas que en este momento son básicas. Sin embargo, hay empleados con incertidumbre por el cambio tan abrupto, sobre todo el subgerente de tesorería por estar habituado a trabajar con viejas tecnologías y no se adapta fácilmente a la evolución tecnológica. Para lo cual diseñamos gráficamente un sistema intuitivo.
+•	¿Los usuarios han participado en la planeación y desarrollo del sistema?
+o	Cada empleado del área de contabilidad aportó su experiencia y conocimiento para mejorar el sistema de información a la hora de su planeación.
+A la hora de la codificación del sistema, se espera contar con la misma calidad y deseo de aporte, a través de retroalimentaciones en cada Sprint, otorgándole al usuario un producto funcional de alta calidad.
+•	¿El sistema incrementará la productividad de los empleados?
+o	Sin duda el sistema mejorará ampliamente la productividad de los empleados.
+•	¿Mejorará la integración con otras áreas?
+o	Entre las subáreas de Finanzas: contabilidad y tesorería, la integración mejorará increíblemente. Así también con las áreas de compras y ventas. 
+A raíz de esto, se tomó la decisión de aplicar un Plan de Capacitación Organizacional, para los diferentes usuarios del sistema, pudiendo transmitir la información necesaria a cada rol para que puedan operar en el sistema de manera exitosa. Este Plan de Capacitación es detallado en la Figura 9 a través de un Diagrama de Gantt, donde se especifica la actividad y rol de usuario, el responsable que la llevará a cabo, como así también los días correspondientes.
+Por otro lado, el sistema cuenta con un diseño altamente intuitivo y amigable para el usuario creado por nuestras diseñadoras de UI/UX, contando también con un tutorial de inducción para aquel usuario que ingresa a cierto apartado del sistema por primera vez, donde se explicará la funcionalidad de manera clara.
+También tendrá un manual de usuario, soporte vía correo y un teléfono solo para emergencias.
+Plan de Capacitación
+Habrá una capacitación intensiva del personal del área de Finanzas del SuperMami, dividida por cada rol de usuario, con una duración 3 horas por día durante 2 semanas. Para esto hemos divido a los miembros del equipo, teniendo en cuenta el conocimiento de cada uno en las funciones a explicar. Así también, quien estuvo más presente en las funcionalidades relativas a la subgerencia de contabilidad, será quien lo capacite. Procediendo de esta manera en cada área que corresponda.
+Cabe aclarar que la capacitación para la Gerencia de Finanzas será solo de media jornada, es decir 1 hora y 30 minutos por día.
+A continuación, se lo detalla de mejor manera:
+Figura 9
+Plan de Capacitación – Diagrama de Gantt
+*figura 9*
+Nota: El gráfico representa el Plan de Capacitación que se llevará a cabo con el Personal del área de Finanzas del SuperMami.
+
+
+
+Gestion de riesgo
+Monitorización del riesgo
+El seguimiento de los riesgos se hará cada 15 días por el Director del Proyecto, quien realizará una revisión sobre los peligros identificados para verificar y actualizar si el efecto y la probabilidad aumentaron o disminuyeron. Como así también, renovar la lista si es necesario, ya sea porque un riesgo quedó en desuso o porque se está identificando un nuevo riesgo por venir.
+En esta revisión, se analizará si se están tomando correctamente las medidas necesarias para disminuir o evitar los riesgos.
+
+
+Conclusion
+El presente trabajo tiene como finalidad desarrollar una propuesta de desarrollo de software a medida para el área de Contabilidad de la empresa SuperMami, para lo cual se analizó de manera detallada cada necesidad insatisfecha del sector anteriormente nombrado.
+En dicho análisis, la necesidad imperante de un Sistema de Información quedó reflejada, lo cual, a través de relevamiento de requerimientos, diagnóstico, gestión del proyecto, entre otras, logramos de manera grupal proponer una solución acorde.
+Fue imprescindible comprender y utilizar los valores y principios de metodologías ágiles y, en especial, aplicar el marco de trabajo Scrum para poder hacer frente a la problemática que se nos presentó. Estas metodologías nos ayudaron a la organización, seguimiento, inspección, estimación y planificación tanto de las tareas y objetivos, como de nuestro propio crecimiento personal.
+
+
+Glosario
+	Sistema de Información/S.I.: Conjunto de elementos orientados al tratamiento y administración de datos e información, generados y organizados para cubrir una necesidad u objetivo.
+	Diagrama de flujo: Representación gráfica de procesos a través de una serie de pasos estructurados y vinculados que permiten su revisión como un todo.
+	Metodología Ágil: Metodologías que se enfocan en el desarrollo de software en sus inicios, siendo éste, incremental, cooperativo, sencillo y adaptativo.
+	Git: Software de control de versiones, ayudando a organizar el código de trabajo, el historial y la evolución del mismo.
+	Trello: Software de administración de proyectos con metodología Kanban.
+	Kanban: Es una metodología para gestionar el trabajo, indicando qué producir, cuándo y cuánto, no sobrecargando a los miembros del equipo. Esto se da a través del uso del tablero Kanban.
+	Scrum: Es un marco de trabajo para desarrollar entregar y mantener productos complejos.
+	Roles de Scrum:
+	 Scrum Master: Encargado de facilitar la realización de ceremonias, la cooperación y el enfoque por parte del Equipo Scrum, garantizando el compromiso total del grupo. Así también, enseña las prácticas de Scrum a todos los involucrados en el proyecto y ayuda al equipo en desarrollar el producto.
+	Equipo de Desarrollo: Son los profesionales que realizan el trabajo de entregar un incremento de producto.
+	Programador frontend: Encargada de la programación del lado del cliente.
+	Programador backend: Encargado de la programación del lado del servidor.
+	Programador Full-Stack: desarrollador con conocimientos y experiencia en Frontend y en Backend.
+	Diseñador UI: Delegado en definir los lineamientos visuales del producto.
+	Diseñador UX: Delegado en mejorar la experiencia del usuario en su interacción con el mismo.
+	Administrador de base de datos: Es quien dirige todas las actividades relacionadas con el mantenimiento del entorno de Base de Datos.
+	Tester: Asegura que los requerimientos definidos se cumplan en la implementación del producto, informando todos los defectos encontrados.
+	Artefactos Scrum:
+	Incremento de producto: Producto de software potencialmente listo para producción.
+	Product Backlog: Lista ordenada de todo lo que se conoce que es necesario en el producto.
+	Sprint Backlog: Son el conjunto de elementos del Product Backlog seleccionados para el Sprint.
+	Sprint: Es un bloque de tiempo durante el cual se crea un incremento de producto.
+	Daily: Es una reunión con un bloque de tiempo de 15 minutos para el Equipo de Desarrollo. En él se evalúa el progreso hacia el objetivo del Sprint.
+	Theme: Son grandes áreas de enfoque que abarcan a toda la organización
+	Epics: Historia de usuario de gran tamaño.
+	Features: Son conjuntos de épicas que conducen hacia un objetivo común.
+	Historia de Usuario: Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario.
+	Criterio de Aceptación: Estos criterios definen los requisitos sobre cómo debe comportarse la aplicación para que determinada acción se pueda llevar a cabo.
+	Software: Conjunto de programas, instrucciones y reglas informáticas que permiten ejecutar distintas tareas en un sistema informático.
+	Hardware: Conjunto de elementos físicos o materiales que constituyen en un sistema informático.
+	Interfaz Gráfica: Parte del software que muestra de forma visual todas las acciones e información disponible, para que los usuarios puedan interactuar con mayor facilidad y sin necesidad de disponer de profundos conocimientos de informática.
+	User friendly: Fácil de usar para el usuario.
+	Encriptar información: Ocultar el contenido de un mensaje a simple vista, de manera que haga falta una interacción concreta para poder desvelar ese contenido.
+	Tablas transaccionales: Tabla en el motor de Base de Datos donde el sistema guarda todas las transacciones realizadas pero que no son relevantes para guardar, sino que son para tareas operacionales.
+	Base de Datos: Conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso.
+	Desarrollo modular: Desarrollo de componentes que se pueden agregar o extraer con facilidad, aumentando la independencia entre ellos.
+	Testing: Proceso de pruebas de software cuyo objetivo es encontrar errores en el mismo, asegurando que los requerimientos definidos se cumplan en la implementación del producto.
+	Testing automático: Proceso de pruebas automatizadas que tienen como objetivo detectar fallas en el software evitando que una persona tenga que ejecutar las pruebas manualmente
+	Tokens: Es un elemento no sensible, es decir, que no tiene un significado o valor extrínseco o explotable. El mismo sirve para ser puesto en el lugar de un elemento de datos sensible.
+	Rama/Branch: Es un apuntador móvil apuntando a una de esas confirmaciones.
+	Rama master: Es la rama con la que se comienza en cualquier proyecto, y es la que se utiliza como rama principal donde se encuentra el proyecto en su estado final.
+	Capacidad del equipo: La capacidad de trabajo de un equipo Scrum es la cantidad de trabajo que puede hacer el equipo en un sprint, estimándose en función del promedio de la velocidad del equipo en sprints anteriores, el promedio de la velocidad x persona x dia y de los días efectivos de trabajo que va a haber en un sprint.
+	Diagrama de Gantt: Herramienta gráfica cuyo objetivo es exponer el tiempo de dedicación previsto para diferentes tareas o actividades a lo largo de un tiempo total determinado.
+	Frontend: Es la parte de un sitio web que interactúa con los usuarios, por eso decimos que está del lado del cliente.
+	Backend: Es la parte del programa que se ejecuta en un servidor, por eso decimos que está del lado del servidor.
+	Pop-up: Ventana emergente que aparece de repente en la pantalla de tu navegador.
+	Textbox: Caja de texto utilizada para que el usuario introduzca datos y/o para mostrar una respuesta predeterminada.
+	Backup: Es una copia de los datos originales que se realiza con el fin de disponer de un medio para recuperarlos en caso de su pérdida.
+	Repositorio: Son instalaciones virtuales donde se deposita información digital.
+	La nube: Permite almacenar y acceder a datos y programas a través de Internet en lugar del disco duro de una computadora.
+	Framework: Un entorno de trabajo estandarizado de conceptos, prácticas y criterios para enfocar un tipo de problemática particular que sirve como referencia, para enfrentar y resolver nuevos problemas de índole similar. 
+	Bug: Un bug se genera en la programación o el diseño del software y, en algún momento, se manifiesta ante el usuario.
+	Merge: Fusionar una rama con otra.
+	Diseño responsive: Diseño que busca la correcta visualización y adaptación en distintos dispositivos.
+	API: Conjunto de funciones que ofrece cierta biblioteca para ser utilizado por otro software. 
+	Firewall: Diseñada para bloquear el acceso no autorizado, permitiendo al mismo tiempo comunicaciones autorizadas.
+	Valor de Retorno (ROI): determina cuanto ganó una empresa a través de sus inversiones. Su fórmula es:
+ROI =  (Ingresos del proyecto - Costo del proyecto)/( Costo del proyecto)
+	Diagrama de Clases: Es un diagrama que muestra un conjunto de clases, interfaces, sus colaboraciones y relaciones. Se utilizan para modelar la vista de diseño estática de un sistema.
+
+ 
+Glosario contable
+	Cuentas contables: Nombres o denominaciones que se les da a las cosas en contabilidad.
+	Cuentas Patrimoniales: Son aquellas que se refieren al patrimonio de una entidad, y se dividen en cuentas de activo, cuentas de pasivo y cuentas de patrimonio neto.
+	Cuentas de Estado de Resultados: Son las cuentas de resultado positivo y resultado negativo.
+	Rubros contables: Apartado que permite agrupar diferentes cuentas.
+	Activo: Cuentas que representan el conjunto de bienes y derechos que posee un ente.
+	Pasivo: Cuentas que representan las obligaciones ciertas del ente y las contingencias que deben registrarse.
+	Patrimonio Neto: Rubro que representa el valor total de una organización una vez descontadas las deudas, es decir, la diferencia entre el activo y el pasivo.
+	Resultado Positivo: Son todas aquellas cuentas que generan ingresos dentro de la organización.
+	Resultado Negativo: Son todas las cuentas que representan acciones que generan pérdida en la organización.
+	Asientos contables: Son registraciones que se realizan en el Libro Diario reflejando los movimientos económicos de una organización.
+	Ajustes contables: Es la corrección que realiza una organización para imputar los correspondientes ingresos, gastos, pasivos y activos en sus respectivos ejercicios contables.
+	Ejercicio Contable: Periodo de tiempo en el que se mide la situación económica y financiera de una organización.
+	Informes Contables: Informes utilizados por las organizaciones para dar a conocer la situación financiera en una determina fecha o periodo de tiempo.
+	Estado de Resultados: Reporte en cual se informan las causas según las cuales se originó el resultado del ejercicio, efectuando un detalle de los ingresos y gastos que motivaron a dicho resultado.
+	Estado de Evolución del Patrimonio Neto: Reporte que muestra las causas de las variaciones sufridas en el Patrimonio Neto. 
+	Balance General: Es un informe que refleja la situación económica de una organización en un momento determinado. En él se refleja el Activo, Pasivo y el Patrimonio Neto.
+	Libro diario: Es un informe contable donde se registran, día a día, los hechos económicos de una empresa. Dicho registro se llama asiento contable.
+	Libro mayor: Reporte donde podemos ver los movimientos que se han realizado en una cuenta contable específica, teniendo así un control de lo que ha entrado y salido en esa cuenta en particular y su balance en cualquier momento.
+	Resultado del Ejercicio: Representa el importe que realmente ha ganado o perdido una organización.
+	Conciliación bancaria: Es un proceso de control entre los registros contables de una organización y los movimientos reales de la cuenta bancaria.
+	Liquidación de impuestos y retenciones: Determina el importe de la deuda tributaria o de la cantidad que, en su caso, resulte a devolver o a compensar de acuerdo con la normativa tributaria.
+	Liquidación de sueldos: Determina el sueldo bruto (sueldo total que recibe el trabajador) generado, las bonificaciones de sueldo, ganancias adicionales, descuentos por Ley, sueldo líquido y todas las ganancias monetarias generadas durante el mes trabajado.
+	Saldo:
+	Saldo deudor: Se da cuando la suma del debe es mayor a la del haber.
+	Saldo acreedor: Se da cuando la suma del haber es mayor a la del debe.
+	Principio de la partida doble: Es el principio universal de la contabilidad moderna, la cual consiste en realizar una doble anotación es decir una cuenta que entra en el debe y otra que sale por el haber. Esto quiere decir que cualquier asiento contable es la suma de los débitos debe ser igual a la suma de los créditos.
+ 
+Apéndice
+Figura 1
+Organigrama del área de Finanzas de la empresa SuperMami
+ 
+Nota: El gráfico representa la composición interna del sector de Finanzas en la empresa SuperMami.
+ 
+Figura 2
+Proceso de Contabilidad de las Ventas sin S.I
+ 
+Nota: El gráfico representa el proceso de contabilidad de las ventas, llevada a cabo por el área de Finanzas, con sus respectivas subáreas de Contabilidad y Tesorería, y la relación con el área de Ventas. Esto es sin tener implementado el S.I.
+ 
+Figura 3
+Proceso de Contabilidad de las Compras sin S.I
+ 
+Nota: El gráfico representa el proceso de contabilidad de las compras, llevada a cabo por el área de Finanzas, con sus respectivas subáreas de Contabilidad y Tesorería, y la relación con el área de Compras. Esto es sin tener implementado el S.I.
+ 
+Figura 4
+Proceso de Contabilidad de Gastos y Sueldos sin S.I
+ 
+Nota: El gráfico representa el proceso de contabilidad de los gastos y sueldos, llevada a cabo por el área de Finanzas, con sus respectivas subáreas de Contabilidad y Tesorería, y la relación con las áreas de Gerencia General, Marketing y Recursos Humanos. Esto es sin tener implementado el S.I.
+ 
+Figura 5
+Proceso de Contabilidad de las Ventas con S.I
+ 
+Nota: El gráfico representa el proceso de contabilidad de las ventas, llevada a cabo por el área de Finanzas, con sus respectivas subáreas de Contabilidad y Tesorería, y la relación con el área de Ventas aplicando nuestro S.I.
+ 
+Figura 6
+Proceso de Contabilidad de las Compras con S.I
+ 
+Nota: El gráfico representa el proceso de contabilidad de las compras, llevada a cabo por el área de Finanzas, con sus respectivas subáreas de Contabilidad y Tesorería, y la relación con el área de Compras aplicando nuestro S.I.
+ 
+Método INVEST
+Sirve para comprobar la calidad de una historia de usuario revisando que cumpla una serie de características:
+	I - Independent -> independiente.
+	N - Negotiable -> negociable.
+	V - Valuable -> valiosa.
+	E - Estimable -> estimable.
+	S - Small -> pequeña.
+	T - Testable -> comprobable.
+Este método aplicaremos en nuestras historias de usuario para que estén lo mejor desarrolladas posible.
+Relación costo-beneficio (R) / Índice neto de rentabilidad
+ El índice neto de rentabilidad es una técnica que pretende determinar la conveniencia del proyecto mediante la enumeración y valoración posterior en términos monetarios de todos los costos y beneficios derivados directa e indirectamente de dicho proyecto.
+Su fórmula es:
+R =beneficios/costos
+Donde:
+	Si R > 1 -> proyecto rentable.
+	Si R = 1 -> proyecto indiferente.
+	Si R < 1 -> proyecto NO rentable.
