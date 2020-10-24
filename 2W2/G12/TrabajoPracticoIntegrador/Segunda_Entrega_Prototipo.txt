@@ -474,3 +474,85 @@ Por un lado, nuestra factibilidad operativa demostró que el personal está de a
 Así también, la factibilidad técnica nos ayudó a saber de manera certera las herramientas y conocimientos que eran necesarios para llevar este proyecto de la manera más eficiente y eficaz posible.
 Esta factibilidad técnica aportó a la realización de la factibilidad económica del proyecto, donde a través del análisis de costos y el análisis de beneficios, pudimos calcular el índice neto de rentabilidad, el cual es de 2,08 y el ROI, el cual es de 1,08.
 De esta manera, a través de los análisis previos podemos afirmar que nuestro proyecto es factible y viable para llevarlo a cabo e implementarlo. 
+
+HU24: Generar recibo por ingreso
+COMO tesorero QUIERO generar un recibo por un ingreso de dinero nuevo PARA dejar constancia del dinero percibido. 
+Notas/Conversación:
+Quiero poder generar un recibo de dinero cuando se registre un nuevo ingreso.	Estimación
+3	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA que se presiona el botón “(+)” en el apartado de ingreso CUANDO se carga la página ENTONCES el sistema mostrará un formulario con los siguientes campos:
+•	Monto *
+•	Concepto *
+•	Nombre del receptor del recibo *
+•	Nombre del emisor del recibo *
+•	Firma digital del emisor del recibo *
+* Estos campos son obligatorios.
+CA2: DADA que el formulario se completó CUANDO se apriete el botón guardar ENTONCES el sistema:
+Escenario 1: El formulario se encuentra correctamente cargado:
+El registro se guarda en la base de datos con la fecha actual.
+A su vez, el sistema notificará por pantalla que el registro del recibo fue exitoso y limpiará los campos para poder ingresar otro nuevo registro si se lo desea.
+Escenario 2: Los campos obligatorios no se encuentran completos:
+El sistema deberá mostrar un mensaje por pantalla que notifique al usuario que hay datos que son requeridos y que no se llenó correctamente, remarcando el textbox que contiene el error.
+Escenario 3: Los campos contienen datos inválidos (ejemplo, letras en el textbox de los montos):
+El sistema deberá mostrar un mensaje por pantalla que notifique al usuario que los datos ingresados son incorrectos, remarcando el textbox que contiene el error.
+
+ 
+HU25: Reporte ingresos totales
+COMO gerente del área de Finanzas QUIERO tener un reporte de los ingresos totales PARA poder optimizar el flujo de dinero.
+Notas/Conversación:
+Quiero poder consultar el detalle de los ingresos registrados e imprimirlo si es necesario.	Estimación
+2	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA la visualización del listado de las cuentas contables de la categoría ingresos CUANDO se selecciona uno o más de un ingreso y un intervalo de tiempo ENTONCES el sistema mostrará un botón “VER PDF” que contará el listado de los ingresos, teniendo la siguiente información:
+•	Fecha desde
+•	Fecha hasta
+•	Nombre de la empresa
+•	Cuenta contable con su respectivo monto total
+•	Monto total general
+CA2: DADA la carga del archivo PDF CUANDO presione el botón descargar PDF ENTONCES el sistema descargará un archivo de tipo PDF con el listado previamente visualizado.
+
+
+
+HU37: Crear servicio de copias de seguridad
+COMO administrador del software QUIERO tener una copia de seguridad de los datos del sistema PARA evitar perdida de información.
+Notas/Conversación:
+Quiero poder contar con un backup con la información del sistema para no perder la información en el caso de que encriptación de datos, borrado de tablas accidentales, entre otros.	Estimación
+5	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA determinado tiempo estipulado con anterioridad por el administrador del software CUANDO se ejecute el servicio de Windows ENTONCES el sistema procederá a realizar una copia de seguridad de la base de datos en un directorio especificado.
+CA2: DADA determinado tiempo estipulado con anterioridad por el administrador del software CUANDO se ejecute el servicio de Windows ENTONCES el sistema procederá a realizar una copia de seguridad de la base de datos en un repositorio en la nube.
+
+
+Gestión de Riesgo
+Para realizar la gestión de riesgo se siguieron los siguientes pasos:
+1.	Se determinaron los tipos de riesgos que se podían presentar (Tabla 12) para luego poder clasificar los riesgos de manera clara y precisa.
+2.	Se determinó la clasificación por probabilidad de ocurrencia y efecto (Tabla 13).
+3.	Se identificaron los riesgos que posee nuestro proyecto, clasificándolo con el criterio de la Tabla 12 y evaluando su probabilidad de ocurrencia y efecto con los criterios de la Tabla 13. También se calculó el “Nivel de Peligro”, el cual se obtiene multiplicando el efecto por la probabilidad de ocurrencia (Tabla 14).
+4.	Se seleccionó el 20% (8) del total de riesgos (33) con mayor Nivel de Peligro. A estos riesgos se les confeccionó una estrategia o plan de contingencia para poder evitarlos o disminuir su efecto (Tabla 15).
+5.	Se confeccionó una Matriz de Impacto (Tabla 16), en la cual se colocó a cada uno de los 33 riesgos de acuerdo a su Nivel de Peligro.
+6.	Por último, redactamos el proceso de Monitoreo de los Riesgos, indicando cada cuanto se lo hará, quien lo hará y cómo se hará.
+ 
+Tabla 12
+Determinación de la clasificación por tipos de riesgo.
+*tabla 12*
+Nota: Esta tabla muestra el criterio a tener cuenta para clasificar los riesgos según sus tipos y su respectiva nomenclatura.
+
+Tabla 13
+Determinación de la clasificación por probabilidad de ocurrencia y efecto.
+*tabla 13*
+Nota: Esta tabla muestra el criterio a tener en cuenta para clasificar los riesgos según la frecuencia de ocurrencia del evento (probabilidad de ocurrencia) y el impacto del evento (efecto).
+
+Tabla 14
+Identificación de riesgos
+*tabla 14*
+Nota: Esta tabla muestra los riesgos identificados, su clasificación y su correspondiente estimación de probabilidad e impacto, ordenado de manera ascendente por el total, el cual se obtiene por la multiplicación entre la probabilidad de ocurrencia y riesgo.
