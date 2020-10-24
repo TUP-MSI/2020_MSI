@@ -1,4 +1,4 @@
-Planificacion del Proyecto
+﻿Planificacion del Proyecto
 En el proyecto se utilizan metodologías ágiles, tales como el marco de trabajo Scrum. Para lo cual se decidió hacer Sprints de 1 semana, ya que somos un equipo con un nivel principiante de madurez y experiencia. Por otro lado, para el seguimiento de las tareas utilizaremos el sistema de información Kanban a través del uso de Trello. En éste, registraremos, organizaremos y haremos un seguimiento de las tareas y actividades a cumplimentar.
 Con el fin de planificar mejor los tiempos y el proyecto confeccionamos una planilla de disponibilidad horaria de nuestro equipo conformado por 6 integrantes, de la cual inferimos que se contará con 4 horas diarias por persona para trabajar en el proyecto de lunes a sábados. Por otro lado, las horas dedicadas a reuniones serán en total 11,25 semanales, dando como resultado una capacidad del equipo de 156,75.
 Dentro de estas reuniones destacamos las dailys, organizadas por nuestro Scrum Master, ya que por este medio nuestro el equipo se sincroniza y prioriza la transparencia.
@@ -381,3 +381,96 @@ Tabla 10
 Análisis de Costos
 *tabla 10*
 Nota: Esta tabla muestra los costos de inicio, costos operacionales y costos de suministros de nuestro proyecto.
+
+HU11: Eliminar cuenta bancaria
+COMO subgerente del área de Contabilidad QUIERO eliminar una cuenta bancaria creada anteriormente PARA borrar información no útil para la empresa.
+Notas/Conversación:
+Quiero poder eliminar una cuenta bancaria que ya no esté en uso.	Estimación
+2	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+              Criterios de aceptación
+CA1: DADA la selección de una cuenta bancaria en la sección “Cuentas Bancarias” CUANDO se presione el botón “(X)” ENTONCES el sistema lanzará la siguiente alerta: “¿Desea eliminar esta Cuenta Bancaria?”.
+CA2: DADA la alerta “¿Desea eliminar esta Cuenta Bancaria?” CUANDO se presione el botón “(ACEPTAR)” ENTONCES el sistema mostrará un formulario por pantalla que pedirá llenar el siguiente campo:
+•	Motivo de eliminación de la cuenta bancaria. *
+* Este campo es obligatorio, no puede quedar vacío.
+CA3: DADA el formulario completo CUANDO se presione el botón “(ACEPTAR)” ENTONCES el sistema lanzará las siguientes alertas:
+Escenario 1: El formulario se encuentra correctamente cargado:
+El sistema notificará por pantalla que se eliminó correctamente la cuenta bancaria del sistema.
+Escenario 3: El campo obligatorio no se encuentra completo:
+El sistema deberá mostrar un mensaje por pantalla que notifique al usuario que hay datos que son requeridos y que no se llenó correctamente, remarcando el textbox que contiene el error.
+ 
+
+HU12: Modificar cuenta bancaria
+COMO subgerente del área de Contabilidad QUIERO modificar una cuenta bancaria creada anteriormente PARA cambiar o agregar información nueva.
+Notas/Conversación:
+Quiero poder modificar o agregar información en una cuenta bancaria en el caso que se me haya olvidado y/o equivocado en la carga de datos.	Estimación
+2	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+       Criterios de aceptación
+CA1: DADA la selección de una cuenta bancaria en la sección “Cuentas Bancarias” CUANDO se presione el botón “( )” ENTONCES se cargará la página en el navegador con un formulario para modificar la cuenta bancaria, contando con los siguientes campos previamente cargados:
+•	Nombre de la cuenta bancaria *
+•	Número de la cuenta bancaria *
+•	Saldo inicial 
+•	Fecha 
+•	Descripción
+* Estos campos son obligatorios.
+CA2: DADO el formulario completo CUANDO se presione el botón “GUARDAR” ENTONCES el sistema lanzará las siguientes alertas:
+Escenario 1: El formulario se encuentra correctamente cargado:
+El sistema notificará por pantalla que se guardó correctamente la cuenta bancaria en el sistema.
+Escenario 2: Los campos contienen datos inválidos (ejemplo, letras en el textbox de “Saldo inicial”):
+El sistema deberá mostrar un mensaje por pantalla que notifique al usuario que los datos ingresados son incorrectos, remarcando el textbox que contiene el error.
+Escenario 3:  Los campos obligatorios no se encuentran completos:
+El sistema deberá mostrar un mensaje por pantalla que notifique al usuario que hay datos que son requeridos y que no se llenó correctamente, remarcando el textbox que contiene el error.
+
+ 
+HU13: Visualizar transacciones de una cuenta bancaria
+COMO subgerente del área de Contabilidad QUIERO visualizar el detalle de transacción de una cuenta bancaria PARA llevar una correcta trazabilidad de las finanzas de la empresa.
+Notas/Conversación:
+Quiero poder contar con un informe sobre las transacciones de una cuenta bancaria particular en determinado periodo de tiempo.	Estimación
+3	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+       Criterios de aceptación
+CA1: DADA la selección de una cuenta bancaria en la sección “Cuentas Bancarias” CUANDO se presione el botón “(VER PDF)” ENTONCES el sistema pedirá que se ingrese una fecha desde y una fecha hasta.
+CA2: DADA la selección de una fecha desde y una fecha hasta CUANDO se presione el botón “(ACEPTAR)” ENTONCES el sistema cargará un archivo PDF que mostrará la siguiente información:
+•	Fecha actual
+•	Nombre de la empresa
+•	Nombre de la cuenta bancaria
+•	Número de la cuenta bancaria
+•	Saldo actual
+•	Rango de fecha elegido
+•	Listado de transacciones que tuvo el banco en el período de tiempo elegido.
+
+
+
+Factibilidad Económica
+Tabla 11
+Análisis de Beneficios.
+*tabla 11*
+Nota: Esta tabla muestra los beneficios tangibles e intangibles de nuestro proyecto, justificando así, el valor de los honorarios de nuestro equipo.
+
+
+Relación costo-beneficio
+Seguidamente, se calcula la relación costo-beneficio o también conocido como el índice neto de rentabilidad, para lo cual se tuvo en cuenta la Tabla 3 y Tabla 3. 
+Costo total: 1.823.460
+Beneficio: 3.800.00
+R (costo-beneficio): 3.800.00 / 1.823.460 = 2,08
+Por lo tanto, el proyecto es rentable dado que R > 1, esto se justifica en el apartado del apéndice. 
+
+Valor de Retorno (ROI)
+Por último, calculamos el valor de retorno (ROI) de nuestro proyecto lo que indica la ganancia a través de las inversiones. El mismo se calcula restando los costos o inversiones estimadas de un proyecto de su ingreso, y dividiendo esto (beneficio neto) por los costos previstos, con el fin de obtener una tasa de retorno.
+Costo total: 1.823.460
+Beneficio: 3.800.00
+ROI: (3.800.000 - 1.823.460) / 1.823.460= 1,08
+Por lo tanto, el valor de retorno es 1,08 veces la inversión, o un 108%. 
+
+Conclusión del Estudio de Factibilidad
+Por un lado, nuestra factibilidad operativa demostró que el personal está de acuerdo con utilizar el sistema y que son capaces de manejarlo, para lo cual sumaremos una capacitación intensiva de inmersión al producto así dejamos fuera todo tipo de incertidumbre en este aspecto.
+Así también, la factibilidad técnica nos ayudó a saber de manera certera las herramientas y conocimientos que eran necesarios para llevar este proyecto de la manera más eficiente y eficaz posible.
+Esta factibilidad técnica aportó a la realización de la factibilidad económica del proyecto, donde a través del análisis de costos y el análisis de beneficios, pudimos calcular el índice neto de rentabilidad, el cual es de 2,08 y el ROI, el cual es de 1,08.
+De esta manera, a través de los análisis previos podemos afirmar que nuestro proyecto es factible y viable para llevarlo a cabo e implementarlo. 
