@@ -556,3 +556,103 @@ Tabla 14
 Identificación de riesgos
 *tabla 14*
 Nota: Esta tabla muestra los riesgos identificados, su clasificación y su correspondiente estimación de probabilidad e impacto, ordenado de manera ascendente por el total, el cual se obtiene por la multiplicación entre la probabilidad de ocurrencia y riesgo.
+
+
+Confección de Historias de Usuario
+A continuación, se listarán las Historias de Usuario confeccionadas por nuestro grupo, incluyendo su estimación, prioridad, criterios de aceptación y, si corresponde, posibles escenarios:
+
+HU01: Registrar cuenta contable
+COMO subgerente del área de Contabilidad QUIERO agregar una cuenta contable nueva PARA utilizarla en los asientos e informes contables.
+Notas/Conversación:
+Quiero poder registrar una nueva cuenta contable así la puedo utilizar para realizar los asientos contables y los informes contables.	Estimación
+3	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA la selección de un rubro dentro de la pestaña de “catálogos de cuenta” CUANDO se presione el botón “(+)” de un rubro en particular ENTONCES presentar un formulario a través de un pop-up para ingresar una nueva cuenta contable al sistema, contando con los siguientes campos:
+•	Nombre de la cuenta *
+•	Número de la cuenta
+•	Descripción de la cuenta
+* Este campo es obligatorio, el resto no.
+CA2: DADO que se llenó el formulario de una nueva cuenta contable CUANDO presione el botón “guardar” ENTONCES el sistema: 
+Escenario 1: La cuenta no está registrada:
+Deberá mostrar un mensaje por pantalla que notifique al usuario que la cuenta se agregó correctamente.
+Escenario 2: La cuenta está registrada:
+Deberá mostrar un mensaje por pantalla que notifique al usuario que la cuenta ya existe y si desea actualizarla.
+En el caso de que no desee actualizarla, los campos cargados no se borran.
+Escenario 3: Hay datos ingresados incorrectos:
+Deberá mostrar un mensaje por pantalla que notifique al usuario que los datos ingresados son incorrectos, remarcando el textbox que contiene el error.
+Escenario 4: Hay datos incompletos
+Deberá mostrar un mensaje por pantalla que notifique al usuario que hay datos que son requeridos y que no se llenó correctamente, remarcando el textbox que contiene el error.
+ 
+HU02: Eliminar cuenta contable
+COMO subgerente del área de Contabilidad QUIERO eliminar una cuenta contable PARA tener una lista actualizada de las cuentas contables utilizadas en el área de Contabilidad.
+Notas/Conversación:
+Quiero poder eliminar una cuenta contable cuando ya no es utilizada luego de cierto tiempo, así contamos con un listado actualizado.	Estimación
+2	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+              Criterios de aceptación
+CA1: DADA la selección de un rubro dentro de la pestaña de “catálogos de cuenta” CUANDO se presione el botón “(X)” de una cuenta en particular ENTONCES mostrar por pantalla una ventana preguntando si se desea realmente eliminar la cuenta seleccionada (opción aceptar y cancelar).
+Escenario 1: Cuenta utilizada en un registro contable del periodo contable actual.
+El sistema mostrará un aviso de que la eliminación no es posible ya que la cuenta está siendo utilizada en el periodo contable actual.
+Escenario 2: Cuenta no utilizada en un registro contable del periodo contable actual.
+El sistema mostrará un aviso de que la eliminación se realizó correctamente
+
+HU03: Modificar cuenta contable
+COMO subgerente del área de Contabilidad QUIERO modificar una cuenta contable PARA tener una lista actualizada de las cuentas contables utilizadas en el área de Contabilidad.
+Notas/Conversación:
+Quiero poder modificar una cuenta contable si hay un error a la hora de nombrado o en la descripción	Estimación
+2	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA la selección de un rubro dentro de la pestaña de “catálogos de cuenta” CUANDO se presione el botón “( )” de una cuenta en particular ENTONCES presentar un formulario a través de un pop-up para modificar los datos de una cuenta contable ya existente en el sistema, contando con los siguientes campos previamente cargados:
+•	Nombre de la cuenta *
+•	Número de la cuenta
+•	Descripción de la cuenta
+* Este campo es obligatorio, no puede quedar vacío, el resto sí.
+CA2: DADO que se modificó el NOMBRE DE LA CUENTA en el formulario de modificación de una cuenta contable ya existente CUANDO presione el botón “guardar” ENTONCES el sistema: 
+Escenario 1: La cuenta posee registros:
+Deberá mostrar un mensaje por pantalla que notifique al usuario que se afectarán todos los registros realizados hasta la fecha.
+Escenario 2: La cuenta no posee registros: 
+Deberá mostrar un mensaje por pantalla que notifique al usuario que la cuenta se modificó correctamente.
+
+
+
+Factibilidad Técnica
+Para poder implementar nuestro sistema, analizamos los conocimientos y herramientas necesarios para efectuar los procesos requeridos en el proyecto.
+Cabe aclarar que a causa de la problemática que trajo aparejada la Pandemia, se tuvo que adquirir, de manera rápida, software y hardware relacionado a la comunicación a distancia.
+A continuación (Tabla 5) se lista el hardware necesario para nuestro equipo:
+Tabla 5
+Hardware necesario
+*tabla 5*
+Nota: Esta tabla muestra el hardware necesario para poder realizar las tareas que requiere el proyecto.
+La computadora debe contar, como mínimo, con las siguientes características para un funcionamiento acorde:
+•	Procesador:
+a.	 Intel Core i7, 3.00Ghz, 4 Núcleos 
+b.	AMD Ryzen 5, 3.00G, 3.7GHz, 4 Núcleos
+•	Memoria RAM: 12Gb 
+•	Almacenamiento: SSD 1TB 
+A raíz de la identificación de las necesidades de hardware, se procedió a la selección de un proveedor por medio de una evaluación técnica (Tabla 6) y posteriormente a una Matriz de Homogeneización (Tabla 7).
+
+Gestion de riesgo:
+Tabla 15
+Selección de riesgos y plan de contingencia.
+*tabla 15*
+Nota: Esta tabla muestra los riesgos que el equipo consideró más relevantes y su respectivo plan de contingencia.
+Tabla 16
+Matriz de Impacto
+*tabla 16*
+Nota: Esta tabla muestra el criterio que tenemos en cuenta para clasificar los riesgos según la frecuencia de ocurrencia del evento (probabilidad de ocurrencia) y el impacto del evento (efecto).
+ 
+Diagrama de clases
+Diagrama de Clases del Proyecto
+En este apartado realizamos un diagrama de clase conceptual o del dominio del problema (Figura 10) el cual logra representar los elementos de nuestro Sistema de Información, visualizando el aspecto estático de las clases, atributos, métodos y relaciones entre cada objeto, ayudando a gestionar la complejidad de dicho sistema por medio de una representación más simple que la realidad.
+Figura 10
+Diagrama de clases del dominio del problema
+*figura 10*
+Nota: El gráfico representa el diagrama de clases conceptual o del dominio del problema, realizado por nuestro equipo para el Sistema de Información desarrollado para el área de Finanzas del SuperMami.
