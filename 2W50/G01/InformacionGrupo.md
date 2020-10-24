@@ -20,3 +20,10 @@ https://github.com/PabloApaza19
 https://github.com/karlaCornelio
 ">UsuarioGitHub</a></td>
 </tr>
+<tr>
+<td align="center">111623</td>
+<td align="left">Banuera, Aldana Laura</td>
+<td align="left"><a href="
+https://github.com/aldanaba97
+">UsuarioGitHub</a></td>
+</tr>
