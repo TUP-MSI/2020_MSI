@@ -18,8 +18,8 @@
 # Checklist de estado de actividad
 
 ## Trabajo Practico Entregas :clipboard:
-- [ ] Entrega Primera Parte
-- [ ] Entrega Segunda Parte
+- [x] Entrega Primera Parte
+- [x] Entrega Segunda Parte
 - [ ] Entrega Tercera Parte
 
 ## Trello :clipboard:
