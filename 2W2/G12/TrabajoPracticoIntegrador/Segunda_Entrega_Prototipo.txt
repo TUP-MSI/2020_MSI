@@ -287,3 +287,97 @@ Donde:
 	Si R > 1 -> proyecto rentable.
 	Si R = 1 -> proyecto indiferente.
 	Si R < 1 -> proyecto NO rentable.
+
+HU32: Reporte Balance General
+COMO subgerente de Contabilidad QUIERO generar el informe contable: Balance General PARA conocer la situación financiera de la empresa.
+Notas/Conversación:
+Quiero un reporte del Balance General imprimible para poder conocer la situación financiera, poder realizar cambios en la operatoria de ser necesario y, a su vez, poder mostrárselo a la Gerencia General del SuperMami.	Estimación
+5	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA la selección de la sección “Informes Contables” CUANDO se seleccione la sección “Balance General” ENTONCES el sistema mostrará por pantalla un pop-up donde se seleccionará una fecha hasta.
+CA2: DADA la selección de una fecha hasta CUANDO se seleccione el botón “ACEPTAR” ENTONCES el sistema mostrará un reporte del Balance General de la empresa a 1 año exacto de la fecha hasta (ejemplo, si se elige de fecha hasta el 10 de octubre del 2020, el sistema generará un reporte desde el 10 de octubre del 2019 hasta el 10 de octubre del 2020). La información que mostrará el sistema es la siguiente:
+•	Rango de fecha.
+•	Nombre de la empresa.
+•	Listado de las cuentas contables del activo que intervinieron durante 1 año desde la fecha hasta ingresada.
+•	Listado de saldos de las cuentas contables del activo que intervinieron durante 1 año desde la fecha hasta ingresada.
+•	Saldo total del activo durante 1 año desde la fecha hasta ingresada.
+•	Listado de las cuentas contables del pasivo que intervinieron durante 1 año desde la fecha hasta ingresada.
+•	Listado de saldos de las cuentas contables del pasivo que intervinieron durante 1 año desde la fecha hasta ingresada.
+•	Saldo total del pasivo durante 1 año desde la fecha hasta ingresada.
+•	Listado de las cuentas contables del patrimonio neto que intervinieron durante 1 año desde la fecha hasta ingresada.
+•	Listado de saldos de las cuentas contables del patrimonio neto que intervinieron durante 1 año desde la fecha hasta ingresada.
+•	Saldo total del patrimonio neto durante 1 año desde la fecha hasta ingresada.
+•	Saldo total, el cual se calcula como: saldo total del pasivo – saldo total del patrimonio neto.
+CA3: DADA la visualización del reporte CUANDO se seleccione “DESCARGAR PDF” ENTONCES el sistema descargará un archivo tipo PDF con los detalles anteriormente descriptos.
+
+
+ 
+HU33: Reporte Libro Diario
+COMO subgerente de Contabilidad QUIERO generar el informe contable: Libro Diario PARA llevar un control de todas las operaciones económicas diarias que se producen en la empresa.
+Notas/Conversación:
+Quiero poder ver el libro diario del SuperMami filtrando por ciertos períodos de tiempo.	Estimación
+5	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA la selección de la sección “Informes Contables” CUANDO se seleccione la sección “Libro Diario” ENTONCES el sistema mostrará por pantalla un pop-up donde se seleccionará una fecha desde y una fecha hasta.
+CA2: DADA la selección de una fecha desde y una fecha hasta CUANDO se seleccione el botón “ACEPTAR” ENTONCES el sistema mostrará el Libro Diario de la empresa, contando con la siguiente información:
+•	Rango de fecha.
+•	Nombre de la empresa.
+•	Folio.
+•	Asientos contables dentro de la fecha estipulada anteriormente, los cuales contarán con los siguientes datos:
+•	Número de asiento contable.
+•	Nombre de las cuentas contables.
+•	Saldo deudor/acreedor.
+•	Nota.
+•	Monto total deudor.
+•	Monto total acreedor.
+CA3: DADA la visualización del reporte CUANDO se seleccione “DESCARGAR PDF” ENTONCES el sistema descargará un archivo tipo PDF con el informe contable: Libro Diario.
+
+
+HU34: Reporte Libro Mayor
+COMO subgerente de Contabilidad QUIERO generar el informe contable: Libro Mayor PARA ver todas las transacciones que tuvo una cuenta contable en determinado periodo de tiempo.
+Notas/Conversación:
+Quiero poder generar automáticamente el Libro Mayor de determinada cuenta para poder ver las transacciones que tuvo dicha cuenta.
+Criterios de aceptación
+CA1: DADA la selección de la sección “Informes Contables” CUANDO se seleccione la sección “Libro Mayor” ENTONCES el sistema mostrará por pantalla un pop-up donde se seleccionará una fecha desde y una fecha hasta, como así también, un listado de todas las cuentas contables activas donde se podrá seleccionar una sola.
+CA2: DADA la selección de una fecha desde, una fecha hasta y una cuenta contable CUANDO se seleccione el botón “ACEPTAR” ENTONCES el sistema mostrará el Libro Mayor, contando con la siguiente información:
+•	Rango de fecha.
+•	Nombre de la empresa.
+•	Nombre de la cuenta contable.
+•	Asientos contables dentro de la fecha y cuenta estipulada anteriormente, los cuales contarán con los siguientes datos:
+o	Número de asiento contable.
+o	Saldo deudor/acreedor.
+•	Monto total deudor de la cuenta contable.
+•	Monto total acreedor de la cuenta contable.
+•	Monto final de la cuenta contable
+CA3: DADA la visualización del reporte CUANDO se seleccione “DESCARGAR PDF” ENTONCES el sistema descargará un archivo tipo PDF con el informe contable: Libro Mayor.
+
+
+Factibilidad Tecnica: software necesario
+
+Tabla 9
+Software necesario
+*tabla 9*
+Nota: Esta tabla muestra el software necesario para poder realizar las tareas que requiere el proyecto.
+En el marco de los conocimientos que son necesarios en nuestro equipo, se comprará un curso de Angular y otro de xUnit de la plataforma educativa Udemy, para poder cubrir cualquier falencia existente, como así también, nivelar los conocimientos de manera homogénea en este framework.
+Para finalizar, listamos los requerimientos técnicos que le indicamos al área de Finanzas del SuperMami que deben cumplir para poder utilizar nuestro Sistema de Información de manera idónea:
+•	Servidor en la nube (recomedamos: Hosting cloud - Business Pluss (Siteground)) o Servidor Propio.
+•	Requisitos de las computadoras:
+o	RAM 2GB o superior.
+o	Disco duro de 100GB o superior.
+o	Procesador 1.8, 2 núcleos o superior.
+o	Compatible con Google Chrome 80 o superior, Firefox versión 52 o superiores, y similares.
+o	Windows 7 o posterior.
+
+
+Factibilidad Económica
+En este apartado se determina la conveniencia de poner en marcha el proyecto teniendo en cuenta los costos de desarrollo, costos de inicio, costos operacionales y costos de suministros y, por otro lado, los beneficios. 
+Tabla 10
+Análisis de Costos
+*tabla 10*
+Nota: Esta tabla muestra los costos de inicio, costos operacionales y costos de suministros de nuestro proyecto.
