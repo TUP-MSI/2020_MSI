@@ -1,9 +1,7 @@
-# Información del Grupo Nº [< GRUPO>] - [< CURSO>]
+# Información del Grupo Nº [07] - [2W50]
 
 
-## Nombre del Grupo :zap:
-
-* [Nombre del grupo: Utilicen un alias o nombre trivial que los identifique. Recuerden que estamos en el ámbito universitario, por lo cual deberán tener en cuenta que el mismo no sea ofensivo, etc.]
+## Nombre del Grupo: 404_TEAM &#57938 &#xe252
 
 
 ## Integrantes :busts_in_silhouette:
@@ -19,7 +17,7 @@
 # Checklist de estado de actividad
 
 ## Trabajo Practico Entregas :clipboard:
-- [ ] Entrega Primera Parte
+- [x] Entrega Primera Parte
 - [ ] Entrega Segunda Parte
 - [ ] Entrega Tercera Parte
 
