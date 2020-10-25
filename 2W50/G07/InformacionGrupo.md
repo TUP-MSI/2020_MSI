@@ -1,7 +1,7 @@
 # Información del Grupo Nº [07] - [2W50]
 
 
-## Nombre del Grupo: 404_TEAM U+26A0
+## Nombre del Grupo: 404_TEAM ⚠️
 
 
 ## Integrantes :busts_in_silhouette:
