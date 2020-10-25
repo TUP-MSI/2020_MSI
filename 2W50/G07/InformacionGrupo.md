@@ -12,6 +12,7 @@
 | 111660 | Diaz, Alexandros Ernesto |[UsuarioGitHub](https://github.com/Aleft)|[UserLinkedin](https://ar.linkedin.com/)|
 | 109505 | Roldán, Facundo |[UsuarioGitHub](https://github.com/facuroldan)|[UserLinkedin](https://www.linkedin.com/in/facundo-roldan-7326271b3/)|
 | 111589 | Ruiz, Gonzalo |[UsuarioGitHub](https://github.com/Gonzalo261)|[UserLinkedin](https://www.linkedin.com/in/gonzalo-ruiz-baa89118a/)|
+| 111555 | Maldonado, Lucas Dario |[UsuarioGitHub](https://github.com/LucasDMaldonado)|[UserLinkedin](https://www.linkedin.com/in/lucas-maldonado-36ab071b3/)|
 
 
 # Checklist de estado de actividad
