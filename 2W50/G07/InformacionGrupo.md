@@ -14,14 +14,17 @@
 | 111589 | Ruiz, Gonzalo |[UsuarioGitHub](https://github.com/Gonzalo261)|[UserLinkedin](https://www.linkedin.com/in/gonzalo-ruiz-baa89118a/)|
 | 111555 | Maldonado, Lucas Dario |[UsuarioGitHub](https://github.com/LucasDMaldonado)|[UserLinkedin](https://www.linkedin.com/in/lucas-maldonado-36ab071b3/)|
 | 111512 | Cejas, Flavio Ezequiel |[UsuarioGitHub](https://github.com/flavio216)|[UserLinkedin](https://www.linkedin.com/in/flavio-cejas-2215511b3/)|
+| 111563 | Moyano, Sergio Ariel |[UsuarioGitHub](https://github.com/sergiooo22)||
+
 
 
 # Checklist de estado de actividad
 
 ## Trabajo Practico Entregas :clipboard:
 - [x] Entrega Primera Parte
-- [ ] Entrega Segunda Parte
+- [x] Entrega Segunda Parte
 - [ ] Entrega Tercera Parte
 
 ## Trello :clipboard:
-- [ ] Capturas del tablero de Trello
+- [x] Capturas del tablero de Trello 1º Entrega.
+- [x] Capturas del tablero de Trello 2º Entrega.
