@@ -656,3 +656,102 @@ Figura 10
 Diagrama de clases del dominio del problema
 *figura 10*
 Nota: El gráfico representa el diagrama de clases conceptual o del dominio del problema, realizado por nuestro equipo para el Sistema de Información desarrollado para el área de Finanzas del SuperMami.
+
+HU27: Registrar un gasto
+COMO tesorero QUIERO poder registrar un gasto PARA llevar una correcta trazabilidad de las finanzas de la empresa.
+Notas/Conversación:
+Quiero poder registrar los gastos para poder controlarlos y llevar un seguimiento de los mismos	Estimación
+3	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA la selección de la sección “Gastos” CUANDO se presione el botón “(+)” ENTONCES se carga la página en el navegador con un formulario con los siguientes campos:
+Fecha *
+•	Tipo de gasto *
+•	Fecha *
+•	Método de pago *
+•	Cuenta contable *
+•	Monto *
+•	Nota *
+* Estos campos son obligatorios.
+CA3: DADO el formulario completo CUANDO se quiere guardar ENTONCES el sistema
+Escenario 1: El formulario se encuentra correctamente cargado:
+El sistema notificará por pantalla que el registro del gasto fue exitoso y limpiará los campos para poder ingresar un nuevo gasto si se lo desea. 
+Escenario 3: Los campos obligatorios no se encuentran completos:
+El sistema deberá mostrar un mensaje por pantalla que notifique al usuario que hay datos que son requeridos y que no se llenó correctamente, remarcando el textbox que contiene el error.
+Escenario 4: Los campos contienen datos inválidos (ejemplo, letras en el textbox del monto):
+El sistema deberá mostrar un mensaje por pantalla que notifique al usuario que los datos ingresados son incorrectos, remarcando el textbox que contiene el error.
+CA4: DADO el registro de un gasto CUANDO se realiza el guardado ENTONCES el sistema generará un asiento contable automáticamente con su respectivo identificador único para dicho asiento.
+
+
+ 
+HU28: Modificar gasto
+COMO tesorero QUIERO poder modificar un gasto PARA cambiar o agregar información nueva.
+Notas/Conversación:
+Quiero poder modificar un gasto en el caso de haber cometido algún error cuando lo registré o en el caso de que me faltó agregar información.	Estimación
+2	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA la selección de la sección “Gastos” CUANDO se presione el botón “( )” ENTONCES se carga la página en el navegador con un formulario con los siguientes campos previamente cargados:
+Fecha *
+•	Tipo de gasto *
+•	Fecha *
+•	Método de pago *
+•	Cuenta contable *
+•	Monto *
+•	Nota *
+* Estos campos son obligatorios.
+CA3: DADO el formulario completo CUANDO se quiere guardar ENTONCES el sistema
+Escenario 1: El formulario se encuentra correctamente cargado:
+El sistema notificará por pantalla que la modificación del gasto fue exitosa.
+Escenario 3: Los campos obligatorios no se encuentran completos:
+El sistema deberá mostrar un mensaje por pantalla que notifique al usuario que hay datos que son requeridos y que no se llenó correctamente, remarcando el textbox que contiene el error. 
+Escenario 4: Los campos contienen datos inválidos (ejemplo, letras en el textbox del monto):
+El sistema deberá mostrar un mensaje por pantalla que notifique al usuario que los datos ingresados son incorrectos, remarcando el textbox que contiene el error.
+CA4: DADO la modificación de un gasto CUANDO se realiza el guardado ENTONCES el sistema modificará el asiento contable que le corresponde a dicho gasto automáticamente.
+
+
+HU29: Reporte gastos totales
+COMO gerente de Contabilidad QUIERO tener un reporte de los gastos PARA contar con un informe imprimible
+Notas/Conversación:
+Quiero poder consultar el detalle de los gastos registrados en determinado tiempo, e imprimirlo si es necesario.	Estimación
+5	Prioridad
+[X] Alta
+[X] Media
+[X] Baja
+Criterios de aceptación
+CA1: DADA la selección de la sección “Gastos” CUANDO se seleccione el botón “VER REPORTE” ENTONCES el sistema mostrará por pantalla un pop-up donde se seleccionará una fecha desde y una fecha hasta.
+CA2: DADA la selección de una fecha desde y una fecha hasta CUANDO se seleccione el botón “ACEPTAR” ENTONCES el sistema mostrará los detalles de los Gastos del rango de tiempo seleccionado, contando con la siguiente información:
+•	Rango de fecha.
+•	Tipo de Gasto.
+•	Monto de cada gasto.
+•	Descripción de cada gasto.
+•	Monto total.
+CA3: DADA la visualización del reporte CUANDO se seleccione “DESCARGAR PDF” ENTONCES el sistema descargará un archivo tipo PDF con los detalles anteriormente descriptos.
+
+
+
+Factibilidad Tecnica
+
+Tabla 6
+Listado de Proveedores y sus características
+*tabla 6*
+Nota: Esta tabla muestra el listado de proveedores con sus características, incluyendo el producto que ofrece cada uno.
+
+Tabla 7
+Matriz de Homogeneización
+*tabla 7*
+Nota: Esta tabla muestra la Matriz de Homogeneización, donde se pondera cada ítem listado anteriormente de la escala de 0 (menos importante) a 1 (muy importante).
+
+Tabla 8
+*tabla 8*
+Nota: Esta tabla muestra la comparación de los proveedores a través de la puntuación final, como así también, la posterior selección de uno de ellos. El seleccionado es aquel con la puntuación más alta.
+
+En conclusión, el Proveedor Delta es el elegido para brindarnos el hardware necesario para trabajar, ya que fue aquel con la puntuación total más alta (expuesto en la Tabla 8). Esta puntuación fue dada a través de la siguiente formula:
+0,60*0,60 + 0,20*,020 + 0,05*0,05 + 0,10*0,05 + 0,05*0,05 =
+0,36 + 0,04 + 0,0025 + 0,005 + 0,0025 =
+0,41
+Seguidamente, también se listará el software necesario para llevar a cabo nuestro proyecto:
